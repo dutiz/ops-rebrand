@@ -1,0 +1,125 @@
+{
+  "navigation": {
+    "items": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Service",
+        "href": "/"
+      },
+      {
+        "name": "Blog",
+        "href": "/"
+      },
+      {
+        "name": "Contact",
+        "href": "/"
+      }
+    ]
+  },
+
+  "footer": {
+    "nav": [
+      { "name": "Home", "href": "/" },
+      { "name": "Service", "href": "/service" },
+      { "name": "About", "href": "/about" },
+      { "name": "Contact", "href": "/contact" }
+    ],
+    "cms": [
+      { "name": "Work", "href": "/work" },
+      { "name": "Work Single", "href": "/" }
+    ],
+    "utilityPages": [
+      { "name": "404", "href": "/404" },
+      { "name": "Licensing", "href": "/" }
+    ],
+    "socials": [
+      { "name": "Instagram", "href": "https://instagram.com/" },
+      { "name": "Twitter/X", "href": "https://x.com/" }
+    ],
+    "copyright": "One Percent Studio , All Rights Reservered"
+  },
+  "headerSection": {
+    "heading": "ONE <br /> PERCENT STUDIO",
+    "subheading": "Crafting impactful brands and <br /> websites that drive growth <br /> and success.",
+    "image": "/images/header-1.png"
+  },
+  "aboutSection": {
+    "title": "(About Us)",
+    "subtitle": "Creative Brands, Powerful Websites",
+    "description": "We are passionate about creating meaningful brands and dynamic websites that stand out in today’s competitive market. Our team combines strategic thinking with creative design to craft custom solutions that align with your business goals. From developing a unique brand identity to designing intuitive, responsive websites, we focus on delivering experiences that engage and convert. With every project, we ensure that your brand’s story is told in a way that resonates with your audience, builds trust, and drives growth. Let us help you transform your brand and take your digital presence to the next level.",
+    "partners": {
+      "title": "(Our Partners)",
+      "items": [
+        { "svg": "/svg/partner-1.svg", "href": "/" },
+        { "svg": "/svg/partner-1.svg", "href": "/" },
+        { "svg": "/svg/partner-1.svg", "href": "/" }
+      ]
+    }
+  },
+  "projectSection": {
+    "title": "(Selected Works)",
+    "number": "(01)",
+    "subtitle": "Projects",
+    "description": "Explore our recent projects showcasing creativity, innovation, and impactful design solutions.",
+    "items": [
+      { "img": "/images/project-1.png", "title": "Acme", "year": "2024" },
+      { "img": "/images/project-1.png", "title": "Acme", "year": "2024" }
+    ]
+  },
+  "ServiceSection": {
+    "title": "(What We Do)",
+    "number": "(02)",
+    "subtitle": "Services",
+    "description": "Discover our tailored services designed to elevate your brand, enhance user experience.",
+    "items": [
+      {
+        "img": "/images/service-1.png",
+        "title1": "Branding",
+        "title2": "Strategy",
+        "description": "Strong & cohesive brand identity to connect with your audience.",
+        "meta": {
+          "title": "Branding Services",
+          "list": [
+            { "name": "Brand Discovery" },
+            { "name": "Visual Identity Design" },
+            { "name": "Brand Positioning" },
+            { "name": "Brand Guidelines " }
+          ]
+        }
+      },
+      {
+        "img": "/images/service-2.png",
+        "title1": "Website",
+        "title2": "Design",
+        "description": "Custom & responsive websites that engage users and drive conversions.",
+        "meta": {
+          "title": "Website Services",
+          "list": [
+            { "name": "Website Design" },
+            { "name": "Website Design" },
+            { "name": "Framer" },
+            { "name": "Webflow" }
+          ]
+        }
+      },
+      {
+        "img": "/images/service-1.png",
+        "title1": "UI/UX",
+        "title2": "Design",
+        "description": "User experience through intuitive and user-centered design solutions.",
+        "meta": {
+          "title": "UI/UX Services",
+          "list": [
+            { "name": "User Research" },
+            { "name": "Usability Testing" },
+            { "name": "Wireframing" },
+            { "name": "UI/UX Audits" }
+          ]
+        }
+      }
+    ]
+  }
+}
