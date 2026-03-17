@@ -21,6 +21,7 @@
   },
 
   "footer": {
+    "img": "logo",
     "nav": [
       { "name": "Home", "href": "/" },
       { "name": "Service", "href": "/service" },

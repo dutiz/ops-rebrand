@@ -8,7 +8,13 @@ export default function Footer() {
       <div className="container py-24">
         <div className="flex md:flex-row flex-col gap-4">
           <div className="flex flex-col gap-y-8 w-full">
-            <Image src="/" width={827} height={320} alt="logo-img" />
+            <Image
+              src={`/images/${footer.img}.png`}
+              width={827}
+              height={320}
+              alt="logo-img"
+              className="mx-auto"
+            />
           </div>
         </div>
         <div className="flex md:flex-row flex-col gap-4">
