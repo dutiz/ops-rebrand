@@ -7,8 +7,10 @@
   --font-gambeta: "Gambetta", serif;
   /* Color Gray */
   --color-gray-300: #ffffff99;
-  --color-gray-600: #0e1011;
+  --color-gray-400: #a3a3a4;
   --color-gray-500: #1b1a1b;
+  --color-gray-600: #181a1b;
+  --color-gray-900: #0e1011;
 }
 
 @utility container {
