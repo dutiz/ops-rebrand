@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function AboutSection() {
   const { aboutSection } = content;
   return (
-    <div className="bg-gray-600">
+    <div className="bg-gray-900">
       <div className="container py-25">
         <div className="flex md:flex-row flex-col gap-4">
           <div className="flex flex-col gap-y-8 w-1/2"></div>
@@ -30,8 +30,8 @@ export default function AboutSection() {
             <p className="mt-14 font-gambeta text-gray-300 text-2xl italic">
               {aboutSection.partners.title}
             </p>
-            {aboutSection.partners.items.map((partner) => (
-              <div key={partner.href}>
+            {aboutSection.partners.items.map((partner, index) => (
+              <div key={index}>
                 <SVG src={partner.svg} />
               </div>
             ))}

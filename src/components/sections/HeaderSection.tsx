@@ -5,7 +5,7 @@ import content from "@/utils/content.json";
 export default function HeaderSection() {
   const { headerSection } = content;
   return (
-    <div className="bg-gray-600 overflow-x-hidden relative">
+    <div className="bg-gray-900 overflow-x-hidden relative">
       <div className="flex md:flex-row flex-col gap-4">
         <div className="flex flex-col gap-y-8 w-1/2 ">
           <Image
