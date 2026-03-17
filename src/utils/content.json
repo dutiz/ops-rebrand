@@ -69,19 +69,19 @@
       { "img": "/images/project-1.png", "title": "Acme", "year": "2024" }
     ]
   },
-  "ServiceSection": {
+  "serviceSection": {
     "title": "(What We Do)",
     "number": "(02)",
     "subtitle": "Services",
     "description": "Discover our tailored services designed to elevate your brand, enhance user experience.",
     "items": [
       {
-        "img": "/images/service-1.png",
+        "img": "service-1",
         "title1": "Branding",
         "title2": "Strategy",
-        "description": "Strong & cohesive brand identity to connect with your audience.",
+        "description": "Strong & cohesive brand <br/> identity to connect with your audience.",
         "meta": {
-          "title": "Branding Services",
+          "title": "( Branding Services )",
           "list": [
             { "name": "Brand Discovery" },
             { "name": "Visual Identity Design" },
@@ -91,7 +91,7 @@
         }
       },
       {
-        "img": "/images/service-2.png",
+        "img": "service-1",
         "title1": "Website",
         "title2": "Design",
         "description": "Custom & responsive websites that engage users and drive conversions.",
@@ -99,14 +99,14 @@
           "title": "Website Services",
           "list": [
             { "name": "Website Design" },
-            { "name": "Website Design" },
+            { "name": "Website Support" },
             { "name": "Framer" },
             { "name": "Webflow" }
           ]
         }
       },
       {
-        "img": "/images/service-1.png",
+        "img": "service-1",
         "title1": "UI/UX",
         "title2": "Design",
         "description": "User experience through intuitive and user-centered design solutions.",
