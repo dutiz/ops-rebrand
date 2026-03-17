@@ -65,8 +65,10 @@
     "subtitle": "Projects",
     "description": "Explore our recent projects showcasing creativity, innovation, and impactful design solutions.",
     "items": [
-      { "img": "/images/project-1.png", "title": "Acme", "year": "2024" },
-      { "img": "/images/project-1.png", "title": "Acme", "year": "2024" }
+      { "img": "project-1", "title": "Acme", "year": "2024" },
+      { "img": "project-1", "title": "Acme", "year": "2024" },
+      { "img": "project-1", "title": "Acme", "year": "2024" },
+      { "img": "project-1", "title": "Acme", "year": "2024" }
     ]
   },
   "serviceSection": {
