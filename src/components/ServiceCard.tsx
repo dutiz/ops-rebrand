@@ -2,6 +2,7 @@
 "use client";
 
 import Image from "next/image";
+import { motion } from "motion/react";
 
 interface ServiceCardProps {
   img?: string;
@@ -33,17 +34,60 @@ export default function ServiceCard({
           />
         </div>
         <div className="flex relative flex-col gap-y-8 w-1/2 p-24 ">
-          <h1 className="text-white font-sans text-[128px] leading-none uppercase">
-            {title1}
-          </h1>
-          <h1 className="text-white font-sans text-[128px] leading-none uppercase">
-            {title2}
-          </h1>
-          <p
-            className="mt-2 font-bold text-gray-400 text-4xl"
-            dangerouslySetInnerHTML={{ __html: children }}
-          />
-          <div className="mt-auto flex md:flex-row flex-col gap-x-12 w-full pb-24">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 1,
+              delay: 0,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <h1 className="text-white font-sans text-[128px] leading-none uppercase">
+              {title1}
+            </h1>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 1,
+              delay: 0,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <h1 className="text-white font-sans text-[128px] leading-none uppercase">
+              {title2}
+            </h1>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 1,
+              delay: 0.4,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <p
+              className="mt-2 font-bold text-gray-400 text-4xl"
+              dangerouslySetInnerHTML={{ __html: children }}
+            />
+          </motion.div>
+          <motion.div
+            className="mt-auto flex md:flex-row flex-col gap-x-12 w-full pb-24"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 1,
+              delay: 0,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
             <div className="flex flex-col w-1/2">
               <p className="text-2xl text-white font-bold">
                 {meta.list[0].name}
@@ -61,7 +105,7 @@ export default function ServiceCard({
                 {meta.list[3].name}
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
@@ -69,17 +113,60 @@ export default function ServiceCard({
     <div className="bg-gray-600 h-full">
       <div className="flex md:flex-row flex-col gap-4">
         <div className="flex relative flex-col gap-y-8 w-1/2 p-24 ">
-          <h1 className="text-white font-sans text-[128px] leading-none uppercase">
-            {title1}
-          </h1>
-          <h1 className="text-white font-sans text-[128px] leading-none uppercase">
-            {title2}
-          </h1>
-          <p
-            className="mt-2 font-bold text-gray-400 text-4xl"
-            dangerouslySetInnerHTML={{ __html: children }}
-          />
-          <div className="mt-auto flex md:flex-row flex-col gap-x-12 w-full pb-24">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 1,
+              delay: 0,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <h1 className="text-white font-sans text-[128px] leading-none uppercase">
+              {title1}
+            </h1>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 1,
+              delay: 0,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <h1 className="text-white font-sans text-[128px] leading-none uppercase">
+              {title2}
+            </h1>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 1,
+              delay: 0.4,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <p
+              className="mt-2 font-bold text-gray-400 text-4xl"
+              dangerouslySetInnerHTML={{ __html: children }}
+            />
+          </motion.div>
+          <motion.div
+            className="mt-auto flex md:flex-row flex-col gap-x-12 w-full pb-24"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 1,
+              delay: 0,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
             <div className="flex flex-col w-1/2">
               <p className="text-2xl text-white font-bold">
                 {meta.list[0].name}
@@ -97,7 +184,7 @@ export default function ServiceCard({
                 {meta.list[3].name}
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className="flex flex-col gap-y-8 w-1/2">
           <Image

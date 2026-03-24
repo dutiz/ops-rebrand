@@ -2,6 +2,7 @@
 
 import content from "@/utils/content.json";
 import ProjectCard from "../ProjectCard";
+import { motion } from "motion/react";
 
 interface ProjectItem {
   img: string;
@@ -14,26 +15,59 @@ export default function ProjectSection() {
   return (
     <div className="bg-gray-600">
       <div className="mx-auto max-w-7xl">
-        <div className="flex md:flex-row flex-col justify-between py-24">
-          <div className="flex flex-col">
-            <p className="font-gambeta text-gray-300 text-2xl italic">
-              {projectSection.title}
-            </p>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 1,
+            delay: 0.4,
+            ease: [0.22, 1, 0.36, 1],
+          }}
+        >
+          <div className="flex md:flex-row flex-col justify-between py-24">
+            <div className="flex flex-col">
+              <p className="font-gambeta text-gray-300 text-2xl italic">
+                {projectSection.title}
+              </p>
+            </div>
+            <div className="flex flex-col">
+              <p className="font-gambeta text-gray-300 text-2xl italic">
+                {projectSection.number}
+              </p>
+            </div>
           </div>
-          <div className="flex flex-col">
-            <p className="font-gambeta text-gray-300 text-2xl italic">
-              {projectSection.number}
-            </p>
-          </div>
-        </div>
+        </motion.div>
         <div className="flex md:flex-row flex-col gap-4 pb-25">
           <div className="flex flex-col gap-y-8 w-full">
-            <h1 className="font-sans text-[320px] text-white uppercase leading-none">
-              {projectSection.subtitle}
-            </h1>
-            <p className="mt-2 text-white text-7xl">
-              {projectSection.description}
-            </p>
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                duration: 1,
+                delay: 0,
+                ease: [0.22, 1, 0.36, 1],
+              }}
+            >
+              <h1 className="font-sans text-[320px] text-white uppercase leading-none">
+                {projectSection.subtitle}
+              </h1>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                duration: 1,
+                delay: 0,
+                ease: [0.22, 1, 0.36, 1],
+              }}
+            >
+              <p className="mt-2 text-white text-7xl">
+                {projectSection.description}
+              </p>
+            </motion.div>
           </div>
         </div>
       </div>
