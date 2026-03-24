@@ -133,5 +133,86 @@
   "aboutContentSection": {
     "part1": "Creative Minds",
     "part2": "Behind Success"
+  },
+  "serviceHeaderSection": {
+    "title": "Services",
+    "description": "Explore our tailored services designed to elevate your brand.",
+    "items": [
+      {
+        "img1": "branding-strategy-1",
+        "img2": "branding-strategy-2",
+        "title1": "Branding",
+        "title2": "Strategy",
+        "description": "We create compelling brand identities that resonate with your audience, helping you establish a strong presence and foster meaningful connections.",
+        "meta": [
+          {
+            "title": "Brand Discovery & Research",
+            "description": "In-depth brand discovery and research help us understand your business, target audience, and market landscape. We conduct comprehensive analyses, including competitor reviews and audience surveys, to uncover valuable insights that inform your brand strategy. This foundational work ensures our creative solutions align perfectly with your business goals and vision."
+          },
+          {
+            "title": "Logo & Visual Identity Design",
+            "description": "Our logo and visual identity design services focus on creating memorable and impactful brand elements. We craft unique logos that encapsulate your brand's essence, complemented by a cohesive visual identity, including color palettes, typography, and graphics. This helps establish brand recognition and creates a strong, lasting impression on your audience."
+          },
+          {
+            "title": "Brand Messaging & Positioning",
+            "description": "We develop compelling brand messaging and positioning strategies that resonate with your target audience. By identifying your unique value proposition and crafting a consistent tone of voice, we ensure your message communicates authenticity and connects emotionally with your customers. This clarity helps differentiate your brand in a competitive marketplace."
+          },
+          {
+            "title": "Brand Guidelines Creation",
+            "description": "Brand guidelines serve as a comprehensive resource for maintaining consistency in your brand’s presentation. We create detailed guidelines that outline the proper use of your logo, typography, colors, imagery, and messaging. This ensures that everyone involved in your brand's communication adheres to the same standards, reinforcing brand recognition."
+          }
+        ]
+      },
+      {
+        "img1": "web-design-1",
+        "img2": "web-design-2",
+        "title1": "Website",
+        "title2": "Design",
+        "description": "Our website design services focus on crafting visually stunning, user-friendly sites that effectively communicate your brand and drive engagement.",
+        "meta": [
+          {
+            "title": "Custom Website Design",
+            "description": "Our custom website design service focuses on crafting unique, visually appealing websites tailored to your brand identity. We prioritize user experience, ensuring intuitive navigation and seamless functionality. Each design reflects your business goals and resonates with your target audience, driving engagement and conversions effectively."
+          },
+          {
+            "title": "Framer Development",
+            "description": "Framer development combines design and code to create interactive and dynamic web experiences. Utilizing Framer's powerful tools, we build responsive layouts that enhance user engagement and storytelling. Our approach ensures your website is not only visually stunning but also optimized for performance, providing a smooth experience across all devices."
+          },
+          {
+            "title": "Webflow Development",
+            "description": "Our Webflow development service empowers you to manage your website effortlessly. We create custom, responsive sites using Webflow’s intuitive platform, allowing for seamless content updates without technical expertise. With a focus on aesthetics and functionality, we deliver websites that captivate users and meet your business objectives."
+          },
+          {
+            "title": "Website Maintenance & Support",
+            "description": "We provide comprehensive website maintenance and support services to ensure your site remains secure, up-to-date, and fully functional. Our proactive approach includes regular backups, software updates, and performance monitoring. This allows you to focus on your core business while we handle the technical aspects of your online presence."
+          }
+        ]
+      },
+      {
+        "img1": "uiux-design-1",
+        "img2": "uiux-design-2",
+        "title1": "UI/UX",
+        "title2": "Design",
+        "description": "We enhance user experiences through intuitive UI/UX design, ensuring seamless interactions that delight users and meet your business objectives.",
+        "meta": [
+          {
+            "title": "User Research & Personas Development",
+            "description": "Our user research and personas development service involves understanding your target audience through interviews, surveys, and analysis. We create detailed user personas that represent your customers, allowing us to tailor design strategies and improve user experience. This foundational work ensures your solutions are aligned with real user needs and behaviors."
+          },
+          {
+            "title": "Wireframing & Prototyping",
+            "description": "We specialize in wireframing and prototyping to visualize your website or application before development. By creating low-fidelity wireframes and interactive prototypes, we map out user flows and layouts. This process allows for early feedback and adjustments, ensuring the final design is intuitive and user-friendly, ultimately enhancing the user experience."
+          },
+          {
+            "title": "Usability Testing & Analysis",
+            "description": "Our usability testing and analysis services evaluate how real users interact with your product. We conduct tests to identify pain points and areas for improvement, gathering valuable insights into user behavior. This data-driven approach enables us to refine your design, ensuring a seamless and enjoyable user experience."
+          },
+          {
+            "title": "UI/UX Audits & Redesigns",
+            "description": "We offer comprehensive UI/UX audits and redesigns to assess your existing product's effectiveness. By analyzing user feedback, design consistency, and usability, we identify areas for improvement. Our redesign process revitalizes your digital experience, ensuring it aligns with user needs, enhances satisfaction, and drives engagement and conversions."
+          }
+        ]
+      }
+    ]
   }
 }
