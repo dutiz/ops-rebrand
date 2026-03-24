@@ -125,5 +125,13 @@
         }
       }
     ]
+  },
+  "aboutHeaderSection": {
+    "title": "One Percent",
+    "description": "Discover our mission, values, & the team behind our success."
+  },
+  "aboutContentSection": {
+    "part1": "Creative Minds",
+    "part2": "Behind Success"
   }
 }
