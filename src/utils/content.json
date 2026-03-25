@@ -134,16 +134,16 @@
     "part1": "Creative Minds",
     "part2": "Behind Success"
   },
-  "serviceHeaderSection": {
+  "servicePage": {
     "title": "Services",
     "description": "Explore our tailored services designed to elevate your brand.",
     "items": [
       {
         "img1": "branding-strategy-1",
         "img2": "branding-strategy-2",
-        "title1": "Branding",
+        "title1": "Brand",
         "title2": "Strategy",
-        "description": "We create compelling brand identities that resonate with your audience, helping you establish a strong presence and foster meaningful connections.",
+        "description": "We create compelling brand identities that resonate with your audience, helping you establish a strong presence and foster meaningful connections",
         "meta": [
           {
             "title": "Brand Discovery & Research",
