@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Anton_SC } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
+import Navigation from "@/components/layout/Navigation";
 
 const antonSC = Anton_SC({
   variable: "--font-anton-sc-sans-serif",
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${antonSC.variable} ${inter.variable} antialiased`}>
+        <Navigation />
         {children}
         <Footer />
       </body>
