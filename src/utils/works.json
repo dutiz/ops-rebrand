@@ -1,0 +1,25 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "title": "ACME",
+      "slug": "acme",
+      "intro": "Full rebranding for a tech startup aiming to disrupt.",
+      "client": "ACME",
+      "year": 2023,
+      "cover": "/images/works/acme/cover.png",
+      "headline1": "Innovative",
+      "headline2": "Design",
+      "text1": "The Acme project involved a full rebranding initiative for a tech startup aiming to disrupt the logistics industry. ",
+      "text2": "We began with an in-depth market analysis, identifying key differentiators and positioning Acme as an innovative leader in its space. Our team worked closely with the client to craft a unique brand identity that resonated with both investors and customers, focusing on a sleek, modern aesthetic paired with a dynamic color palette.<br/> <br/> From logo design to typography and messaging, every element was designed to reflect Acme’s cutting-edge technology and commitment to efficiency. The website was designed with an intuitive user interface, ensuring easy navigation for both B2B and B2C users. This allowed potential partners to quickly understand Acme’s value proposition and services.<br/> <br/> Post-launch, Acme experienced a significant increase in brand visibility and engagement. Our efforts helped drive traffic to their website and improve user retention rates. The rebranding also facilitated a successful round of funding, providing Acme with the momentum needed to continue its growth trajectory. The project stands as a testament to the power of strategic branding and user-centered design.",
+      "gallery": [
+        { "src": "/images/works/acme/img-1.png" },
+        { "src": "/images/works/acme/img-2.png" },
+        { "src": "/images/works/acme/img-3.png" },
+        { "src": "/images/works/acme/img-4.png" },
+        { "src": "/images/works/acme/img-5.png" }
+      ],
+      "services": "Branding, Website"
+    }
+  ]
+}
