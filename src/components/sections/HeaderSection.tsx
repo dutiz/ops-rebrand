@@ -6,6 +6,7 @@ import { motion } from "motion/react";
 import content from "@/utils/content.json";
 import SVG from "react-inlinesvg";
 import { useRef } from "react";
+import Slider from "../Slider";
 export default function Section() {
   const { headerSection } = content;
   const { aboutSection } = content;
@@ -13,7 +14,7 @@ export default function Section() {
 
   // 🎯 TEXT SLIDE UP
   return (
-    <div ref={ref} className="bg-gray-900">
+    <div ref={ref} className="bg-gray-900 relative top-0">
       {/* 🔥 WRAPPER KRYESOR */}
       <motion.div
         initial={{ y: 100, opacity: 0 }}
@@ -22,17 +23,11 @@ export default function Section() {
       >
         <div className="md:w-1/2 w-full">
           <motion.div className="sticky top-0 flex items-center">
-            <Image
-              width={540}
-              height={800}
-              src={headerSection.image}
-              alt="header-img"
-              className="w-full h-screen object-cover"
-            />
+           <Slider items={headerSection.slides} />
           </motion.div>
         </div>
         <div className="md:w-1/2 w-full">
-          <div className="sticky top-0 flex flex-col gap-y-24 justify-center px-6 md:px-12">
+          <div className="sticky mt-32 flex flex-col gap-y-24 justify-center px-6 md:px-12">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
