@@ -2,19 +2,19 @@
   "navigation": {
     "items": [
       {
-        "name": "Home",
-        "href": "/"
+        "name": "Work",
+        "href": "/work"
       },
       {
         "name": "Service",
-        "href": "/"
+        "href": "/service"
       },
       {
-        "name": "Blog",
-        "href": "/"
+        "name": "About",
+        "href": "/about"
       },
       {
-        "name": "Contact",
+        "name": "Let's Talk",
         "href": "/"
       }
     ]
@@ -46,7 +46,7 @@
     "heading": "ONE <br /> PERCENT",
     "heading2": "STUDIO",
     "subheading": "Crafting impactful brands and <br /> websites that drive growth <br /> and success.",
-    "image": "/images/header-1.png"
+    "slides": [{ "img": "slide-1" }, { "img": "slide-2" }, { "img": "slide-3" }]
   },
   "aboutSection": {
     "title": "(About Us)",
@@ -214,5 +214,9 @@
         ]
       }
     ]
+  },
+  "blogPage": {
+    "title": "Journal",
+    "description": "Explore insights, tips, and trends to elevate your brand."
   }
 }
