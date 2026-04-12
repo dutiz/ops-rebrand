@@ -220,6 +220,46 @@
       }
     ]
   },
+  "processSection": {
+    "title": "(How we work)",
+    "number": "(03)",
+    "subtitle": "Process",
+    "description": "Our proven process ensures successful outcomes and client satisfaction every time.",
+    "items": [
+      {
+        "id": 1,
+        "img": "discovery",
+        "number": "01",
+        "meta": "(Discovery)",
+        "title": "Understanding Your Unique Needs.",
+        "description": "In the discovery phase, we immerse ourselves in your brand’s vision, goals, and target audience. Through collaborative discussions and research, we gather insights that inform our strategy. <br/> <br/>This foundational step ensures that our design solutions align perfectly with your objectives and resonate deeply with your audience."
+      },
+      {
+        "id": 2,
+        "img": "design",
+        "number": "02",
+        "meta": "(Design)",
+        "title": "Crafting Innovative Solutions.",
+        "description": "During the design phase, our team translates insights into visually captivating and functional designs. We create wireframes, prototypes, and mockups, allowing you to visualize the project. <br/> <br/>This iterative process encourages collaboration and feedback, ensuring the final design reflects your brand identity while enhancing user experience."
+      },
+      {
+        "id": 3,
+        "img": "development",
+        "number": "03",
+        "meta": "(Development)",
+        "title": "Bringing Ideas to Life.",
+        "description": "In the development stage, we transform approved designs into fully functional websites or applications. Our skilled developers utilize the latest technologies to ensure optimal performance, responsiveness, and security.<br/> <br/>We conduct thorough testing throughout this phase, addressing any issues to deliver a polished final product that exceeds expectations."
+      },
+      {
+        "id": 4,
+        "img": "support",
+        "number": "04",
+        "meta": "(Launch & Support)",
+        "title": "Seamless Deployment and Beyond.",
+        "description": "After final reviews and testing, we launch your project with precision and care. Our team ensures a smooth transition while providing ongoing support and maintenance. <br/> <br/>We$apos;re committed to your success, offering guidance and updates to keep your website or application running optimally and evolving with your needs."
+      }
+    ]
+  },
   "blogPage": {
     "title": "Journal",
     "description": "Explore insights, tips, and trends to elevate your brand."
