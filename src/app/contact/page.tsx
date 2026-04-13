@@ -17,7 +17,7 @@ export default function page() {
             className="w-full h-auto"
           />
         </div>
-        <div className="w-1/2 p-24">
+        <div className="w-1/2 p-19">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
