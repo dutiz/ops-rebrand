@@ -20,7 +20,7 @@
 
       {
         "name": "Let's Talk",
-        "href": "/"
+        "href": "/contact"
       }
     ]
   },
@@ -267,5 +267,16 @@
   "workPage": {
     "title": "Projects",
     "description": "View our work, reflecting unique solutions for client needs."
+  },
+  "contactPage": {
+    "img": "discovery",
+    "title1": "Let&apos;s",
+    "title2": "Create",
+    "metaName": "(Name)",
+    "metaEmail": "(Email)",
+    "namePlaceholder": "Full Name",
+    "emailPlaceholder": "Email Address",
+    "messagePlaceholder": "How can we help you? Message",
+    "button": "Send Message"
   }
 }
