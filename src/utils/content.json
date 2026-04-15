@@ -278,5 +278,10 @@
     "emailPlaceholder": "Email Address",
     "messagePlaceholder": "How can we help you? Message",
     "button": "Send Message"
+  },
+  "notFoundPage": {
+    "title": "404",
+    "description": "Unfortunately the page you are looking for <br /> could not be found.",
+    "button": "Back to Homepage"
   }
 }
