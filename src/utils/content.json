@@ -53,7 +53,10 @@
     "socials": {
       "meta": "(Social Media)",
       "items": [
-        { "name": "Instagram", "href": "https://www.instagram.com/onepercenstudio/" },
+        {
+          "name": "Instagram",
+          "href": "https://www.instagram.com/onepercenstudio/"
+        },
         { "name": "Twitter/X", "href": "https://x.com/" }
       ]
     },
@@ -118,7 +121,7 @@
         "title2": "Design",
         "description": "Custom & responsive websites that engage users and drive conversions.",
         "meta": {
-          "title": "Website Services",
+          "title": "( Website Services )",
           "list": [
             { "name": "Website Design" },
             { "name": "Website Support" },
@@ -133,7 +136,7 @@
         "title2": "Design",
         "description": "User experience through intuitive and user-centered design solutions.",
         "meta": {
-          "title": "UI/UX Services",
+          "title": "( UI/UX Services )",
           "list": [
             { "name": "User Research" },
             { "name": "Usability Testing" },
