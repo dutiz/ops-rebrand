@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import Image from "next/image";
 
-export default function Slider({ items }: { items: [] }) {
+export default function Slider({ items }: { items: any }) {
   return (
     <Swiper
       spaceBetween={30}

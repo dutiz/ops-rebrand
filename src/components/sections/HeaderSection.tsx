@@ -1,12 +1,17 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
 import content from "@/utils/content.json";
 import SVG from "react-inlinesvg";
 import { useRef } from "react";
 import Slider from "../Slider";
+
+interface PartnersItem {
+  svg: string;
+  href: string;
+}
+
 export default function Section() {
   const { headerSection } = content;
   const { aboutSection } = content;
@@ -23,7 +28,7 @@ export default function Section() {
       >
         <div className="md:w-1/2 w-full">
           <motion.div className="sticky top-0 flex items-center">
-           <Slider items={headerSection.slides} />
+            <Slider items={headerSection.slides} />
           </motion.div>
         </div>
         <div className="md:w-1/2 w-full">
@@ -79,7 +84,7 @@ export default function Section() {
                 }}
               />
             </motion.div>
-            <div className="w-1/2 flex flex-col gap-y-8">
+            <div className="w-full flex flex-col gap-y-8">
               <motion.div
                 className="mt-auto pb-16"
                 initial={{ opacity: 0, y: 50 }}
@@ -140,7 +145,7 @@ export default function Section() {
                 </Link>
               </motion.div>
               <motion.div
-                className="mt-auto pb-16"
+                className="mt-auto pb-2"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -153,23 +158,48 @@ export default function Section() {
                   {aboutSection.partners.title}
                 </p>
               </motion.div>
-              {aboutSection.partners.items.map((partner, index) => (
-                <motion.div
-                  key={index}
-                  className="mt-auto pb-16"
-                  initial={{ opacity: 0, y: 50 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{
-                    duration: 0.8,
-                    delay: 0.6,
-                    ease: [0.22, 1, 0.36, 1],
-                  }}
-                >
-                  <div>
-                    <SVG src={partner.svg} />
-                  </div>
-                </motion.div>
-              ))}
+              <div className="mb-16">
+                {aboutSection.partners.items
+                  .reduce(
+                    (
+                      rows: PartnersItem[][],
+                      item: PartnersItem,
+                      index: number,
+                    ) => {
+                      if (index % 2 === 0) {
+                        rows.push(
+                          aboutSection.partners.items.slice(index, index + 2),
+                        );
+                      }
+                      return rows;
+                    },
+                    [],
+                  )
+                  .map((row: PartnersItem[], rowIndex: number) => (
+                    <div key={rowIndex} className="flex flex-row gap-x-8">
+                      {row.map((partner, index) => (
+                        <motion.div
+                          key={index}
+                          className="mt-2 "
+                          initial={{ opacity: 0, y: 50 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          transition={{
+                            duration: 0.8,
+                            delay: 0.6,
+                            ease: [0.22, 1, 0.36, 1],
+                          }}
+                        >
+                          <Link href={partner.href} target="_blank">
+                            <SVG
+                              src={`/svg/${partner.svg}.svg`}
+                              className="w-27.75 h-auto mb-5"
+                            />
+                          </Link>
+                        </motion.div>
+                      ))}
+                    </div>
+                  ))}
+              </div>
             </div>
           </div>
         </div>

@@ -60,9 +60,10 @@
     "partners": {
       "title": "(Our Partners)",
       "items": [
-        { "svg": "/svg/partner-1.svg", "href": "/" },
-        { "svg": "/svg/partner-1.svg", "href": "/" },
-        { "svg": "/svg/partner-1.svg", "href": "/" }
+        { "svg": "partner-1", "href": "/" },
+        { "svg": "partner-1", "href": "/" },
+        { "svg": "partner-1", "href": "/" },
+        { "svg": "partner-1", "href": "/" }
       ]
     }
   },
