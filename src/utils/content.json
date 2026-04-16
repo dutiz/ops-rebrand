@@ -27,24 +27,36 @@
 
   "footer": {
     "img": "logo",
-    "nav": [
-      { "name": "Home", "href": "/" },
-      { "name": "Service", "href": "/service" },
-      { "name": "About", "href": "/about" },
-      { "name": "Contact", "href": "/contact" }
-    ],
-    "cms": [
-      { "name": "Work", "href": "/work" },
-      { "name": "Work Single", "href": "/" }
-    ],
-    "utilityPages": [
-      { "name": "404", "href": "/404" },
-      { "name": "Licensing", "href": "/" }
-    ],
-    "socials": [
-      { "name": "Instagram", "href": "https://instagram.com/" },
-      { "name": "Twitter/X", "href": "https://x.com/" }
-    ],
+    "nav": {
+      "meta": "(Pages)",
+      "items": [
+        { "name": "Home", "href": "/" },
+        { "name": "Service", "href": "/service" },
+        { "name": "About", "href": "/about" },
+        { "name": "Contact", "href": "/contact" }
+      ]
+    },
+    "cms": {
+      "meta": "(CMS)",
+      "items": [
+        { "name": "Work", "href": "/work" },
+        { "name": "Work Single", "href": "/" }
+      ]
+    },
+    "utilityPages": {
+      "meta": "(Utility Pages)",
+      "items": [
+        { "name": "404", "href": "/not-found" },
+        { "name": "Licensing", "href": "/licensing" }
+      ]
+    },
+    "socials": {
+      "meta": "(Social Media)",
+      "items": [
+        { "name": "Instagram", "href": "https://www.instagram.com/onepercenstudio/" },
+        { "name": "Twitter/X", "href": "https://x.com/" }
+      ]
+    },
     "copyright": "One Percent Studio , All Rights Reservered"
   },
   "headerSection": {
