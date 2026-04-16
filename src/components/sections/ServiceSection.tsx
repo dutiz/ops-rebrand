@@ -7,7 +7,7 @@ import { motion } from "motion/react";
 export default function ServiceSection() {
   const { serviceSection } = content;
   return (
-    <div className="bg-gray-900">
+    <div className="bg-white dark:bg-gray-900">
       <div className="mx-auto max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -31,13 +31,13 @@ export default function ServiceSection() {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <p className="font-gambeta text-gray-300 text-2xl italic">
+                <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                   {serviceSection.title}
                 </p>
               </motion.div>
             </div>
             <div className="flex flex-col">
-              <p className="font-gambeta text-gray-300 text-2xl italic">
+              <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                 {serviceSection.number}
               </p>
             </div>
@@ -55,7 +55,7 @@ export default function ServiceSection() {
                 ease: [0.22, 1, 0.36, 1],
               }}
             >
-              <h1 className="font-sans text-[320px] text-white uppercase leading-none">
+              <h1 className="font-sans text-[320px] text-black dark:text-white uppercase leading-none">
                 {serviceSection.subtitle}
               </h1>
             </motion.div>
@@ -69,7 +69,7 @@ export default function ServiceSection() {
                 ease: [0.22, 1, 0.36, 1],
               }}
             >
-              <p className="mt-2 text-white text-7xl">
+              <p className="mt-2 text-black dark:text-white text-7xl">
                 {serviceSection.description}
               </p>
             </motion.div>
