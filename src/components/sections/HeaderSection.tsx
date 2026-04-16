@@ -19,7 +19,7 @@ export default function Section() {
 
   // 🎯 TEXT SLIDE UP
   return (
-    <div ref={ref} className="bg-gray-900 relative top-0">
+    <div ref={ref} className="dark:bg-gray-900 bg-white relative top-0">
       {/* 🔥 WRAPPER KRYESOR */}
       <motion.div
         initial={{ y: 100, opacity: 0 }}
@@ -44,7 +44,7 @@ export default function Section() {
               }}
             >
               <h1
-                className="mt-9 font-sans text-white text-[72px] md:text-[144px] leading-none"
+                className="mt-9 font-sans text-black dark:text-white text-[72px] md:text-[144px] leading-none"
                 dangerouslySetInnerHTML={{
                   __html: headerSection.heading,
                 }}
@@ -61,7 +61,7 @@ export default function Section() {
               }}
             >
               <h1
-                className="-mt-23 font-sans text-white text-[72px] md:text-[144px] leading-none"
+                className="-mt-23 font-sans text-black dark:text-white text-[72px] md:text-[144px] leading-none"
                 dangerouslySetInnerHTML={{
                   __html: headerSection.heading2,
                 }}
@@ -78,7 +78,7 @@ export default function Section() {
               }}
             >
               <p
-                className="text-2xl md:text-4xl font-semibold text-white"
+                className="text-2xl md:text-4xl font-semibold text-black dark:text-white"
                 dangerouslySetInnerHTML={{
                   __html: headerSection.subheading,
                 }}
@@ -95,7 +95,7 @@ export default function Section() {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <p className="font-gambeta text-gray-300 text-2xl italic">
+                <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                   {aboutSection.title}
                 </p>
               </motion.div>
@@ -109,7 +109,7 @@ export default function Section() {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <h1 className="mt-8 text-white text-[128px] font-sans leading-none uppercase">
+                <h1 className="mt-8 text-black dark:text-white text-[128px] font-sans leading-none uppercase">
                   {aboutSection.subtitle}
                 </h1>
               </motion.div>
@@ -123,7 +123,7 @@ export default function Section() {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <p className="mt-2 text-gray-300 text-2xl">
+                <p className="mt-2 text-gray-800 dark:text-gray-300 text-2xl">
                   {aboutSection.description}
                 </p>
               </motion.div>
@@ -139,7 +139,7 @@ export default function Section() {
               >
                 <Link
                   href="/about"
-                  className="text-white text-xl underline font-bold"
+                  className="text-black dark:text-white text-xl underline font-bold"
                 >
                   More About Us
                 </Link>
@@ -154,7 +154,7 @@ export default function Section() {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <p className="mt-14 font-gambeta text-gray-300 text-2xl italic">
+                <p className="mt-14 font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                   {aboutSection.partners.title}
                 </p>
               </motion.div>
@@ -192,7 +192,7 @@ export default function Section() {
                           <Link href={partner.href} target="_blank">
                             <SVG
                               src={`/svg/${partner.svg}.svg`}
-                              className="w-27.75 h-auto mb-5"
+                              className="fill-current text-black dark:text-white w-27.75 h-auto mb-5"
                             />
                           </Link>
                         </motion.div>
