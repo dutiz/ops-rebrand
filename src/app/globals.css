@@ -3,7 +3,6 @@
 @import "swiper/css/pagination";
 @import "swiper/css/navigation";
 
-
 @plugin "@tailwindcss/typography";
 
 @theme inline {
@@ -17,6 +16,7 @@
   --color-gray-600: #181a1b;
   --color-gray-800: #0e101199;
   --color-gray-900: #0e1011;
+  --color-black: #1e1e1e;
 }
 
 @utility container {
@@ -54,6 +54,105 @@
   opacity: 0.8;
   transition: all 0.3s;
   border-radius: 999px;
+}
+.animation-border {
+  position: relative;
+  display: inline-block;
+  padding: 0px 0px 8px 0px;
+  text-decoration: none;
+  color: var(--color-gray-900);
+}
+
+.animation-border::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0; /* Start with no width */
+  height: 2px; /* Border thickness */
+  background-color: var(--color-gray-900); /* Border color */
+  transition: width 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Expand the width on hover */
+.animation-border:hover::after {
+  width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .animation-border {
+    position: relative;
+    display: inline-block;
+    padding: 0px 0px 8px 0px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .animation-border::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; /* Start with no width */
+    height: 2px; /* Border thickness */
+    background-color: #fff; /* Border color */
+    transition: width 0.3s ease-in-out; /* Smooth transition */
+  }
+
+  /* Expand the width on hover */
+  .animation-border:hover::after {
+    width: 100%;
+  }
+}
+
+.ranimation-border {
+  position: relative;
+  display: inline-block;
+  padding: 0px 0px 8px 0px;
+  text-decoration: none;
+  color: var(--color-gray-900);;
+}
+
+.ranimation-border::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%; /* Start with no width */
+  height: 2px; /* Border thickness */
+  background-color: var(--color-gray-900);; /* Border color */
+  transition: width 0.3s ease; /* Smooth transition */
+}
+
+/* Expand the width on hover */
+.ranimation-border:hover::after {
+  width: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .ranimation-border {
+    position: relative;
+    display: inline-block;
+    padding: 0px 0px 8px 0px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .ranimation-border::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%; /* Start with no width */
+    height: 2px; /* Border thickness */
+    background-color: #fff; /* Border color */
+    transition: width 0.3s ease; /* Smooth transition */
+  }
+
+  /* Expand the width on hover */
+  .ranimation-border:hover::after {
+    width: 0;
+  }
 }
 @font-face {
   font-family: "Gambetta";
