@@ -23,8 +23,8 @@ export default function ServiceCard({
 }: ServiceCardProps) {
   return left ? (
     <div className="bg-gray-100 dark:bg-gray-600">
-      <div className="flex md:flex-row flex-col gap-4">
-        <div className="flex flex-col gap-y-8 w-1/2">
+      <div className="flex md:flex-row flex-col gap-0">
+        <div className="flex flex-col gap-y-0 w-1/2">
           <Image
             src={`/images/${img}.png`}
             width={540}
@@ -127,7 +127,7 @@ export default function ServiceCard({
     </div>
   ) : (
     <div className="bg-gray-100 dark:bg-gray-600 h-full">
-      <div className="flex md:flex-row flex-col gap-4">
+      <div className="flex md:flex-row flex-col gap-0">
         <div className="flex relative flex-col gap-y-8 w-1/2 p-24 ">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
