@@ -10,7 +10,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
 
   // 🎯 TEXT SLIDE UP
   return (
-    <div ref={ref} className="bg-gray-900">
+    <div ref={ref} className="bg-white dark:bg-gray-900">
       {/* 🔥 WRAPPER KRYESOR */}
       <motion.div
         initial={{ y: 100, opacity: 0 }}
@@ -39,7 +39,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                 ease: [0.22, 1, 0.36, 1],
               }}
             >
-              <p className="font-gambeta text-gray-300 text-2xl italic">
+              <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                 ( {post.date} )
               </p>
             </motion.div>
@@ -54,7 +54,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
               }}
             >
               <h1
-                className="font-sans text-white text-[72px] md:text-[94px] leading-none"
+                className="font-sans text-black dark:text-white text-[72px] md:text-[94px] leading-none"
                 dangerouslySetInnerHTML={{
                   __html: post.title,
                 }}
@@ -71,7 +71,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
               }}
             >
               <p
-                className="text-2xl md:text-4xl font-semibold text-white"
+                className="text-2xl md:text-4xl font-semibold text-black dark:text-white"
                 dangerouslySetInnerHTML={{
                   __html: post.excerpt,
                 }}
@@ -88,7 +88,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <h1 className="mt-8 text-white text-[64px] font-sans leading-none uppercase">
+                <h1 className="mt-8 text-black dark:text-white text-[64px] font-sans leading-none uppercase">
                   {post.subtitle1}
                 </h1>
               </motion.div>
@@ -103,7 +103,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                 }}
               >
                 <p
-                  className="mt-2 text-gray-300 text-2xl"
+                  className="mt-2 text-gray-800 dark:text-gray-300 text-2xl"
                   dangerouslySetInnerHTML={{
                     __html: post.content1,
                   }}
@@ -119,7 +119,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <h1 className="mt-8 text-white text-[64px] font-sans leading-none uppercase">
+                <h1 className="mt-8 text-black dark:text-white text-[64px] font-sans leading-none uppercase">
                   {post.subtitle2}
                 </h1>
               </motion.div>
@@ -134,7 +134,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                 }}
               >
                 <p
-                  className="mt-2 text-gray-300 text-2xl"
+                  className="mt-2 text-gray-800 dark:text-gray-300 text-2xl"
                   dangerouslySetInnerHTML={{
                     __html: post.content2,
                   }}
@@ -150,7 +150,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <h1 className="mt-8 text-white text-[64px] font-sans leading-none uppercase">
+                <h1 className="mt-8 text-black dark:text-white text-[64px] font-sans leading-none uppercase">
                   {post.subtitle3}
                 </h1>
               </motion.div>
@@ -165,7 +165,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                 }}
               >
                 <p
-                  className="mt-2 text-gray-300 text-2xl"
+                  className="mt-2 text-gray-800 dark:text-gray-300 text-2xl"
                   dangerouslySetInnerHTML={{
                     __html: post.content3,
                   }}
