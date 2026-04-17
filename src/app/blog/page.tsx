@@ -26,7 +26,7 @@ export default function BlogPage() {
       {/* Blog Header Section */}
       <BlogHeaderSection />
       {/* Blog List Section */}
-      <div className="bg-gray-600">
+      <div className="bg-gray-100 dark:bg-gray-600">
         {blog.posts
           .reduce(
             (
