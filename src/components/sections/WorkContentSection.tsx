@@ -8,7 +8,7 @@ export default function WorkContentSection({ content }: { content: any }) {
   const ref = useRef(null);
   return (
     <>
-      <div className="bg-gray-900 py-17">
+      <div className="bg-white dark:bg-gray-900 py-17">
         <div className="flex md:flex-row flex-col gap-4">
           <div className="w-full">
             <Image
@@ -23,7 +23,7 @@ export default function WorkContentSection({ content }: { content: any }) {
         </div>
         <div
           ref={ref}
-          className="bg-gray-900 py-20 container max-w-7xl mx-auto"
+          className="bg-white dark:bg-gray-900 py-20 container max-w-7xl mx-auto"
         >
           <motion.div
             initial={{ y: 100, opacity: 0 }}
@@ -42,7 +42,7 @@ export default function WorkContentSection({ content }: { content: any }) {
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <h1 className="font-sans text-[128px] text-white leading-none uppercase">
+                  <h1 className="font-sans text-[128px] text-black dark:text-white leading-none uppercase">
                     {content.headline1}
                   </h1>
                 </motion.div>
@@ -56,7 +56,7 @@ export default function WorkContentSection({ content }: { content: any }) {
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <h1 className="mt-2 font-sans text-[128px] text-white leading-none uppercase">
+                  <h1 className="mt-2 font-sans text-[128px] text-black dark:text-white leading-none uppercase">
                     {content.headline2}
                   </h1>
                 </motion.div>
@@ -74,7 +74,7 @@ export default function WorkContentSection({ content }: { content: any }) {
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <p className="text-white font-semibold text-5xl ">
+                  <p className="text-black dark:text-white font-semibold text-5xl ">
                     {content.text1}
                   </p>
                 </motion.div>
@@ -89,7 +89,7 @@ export default function WorkContentSection({ content }: { content: any }) {
                   }}
                 >
                   <p
-                    className="text-gray-300 text-lg mt-6"
+                    className="text-gray-800 dark:text-gray-300 text-lg mt-6"
                     dangerouslySetInnerHTML={{
                       __html: content.text2,
                     }}
