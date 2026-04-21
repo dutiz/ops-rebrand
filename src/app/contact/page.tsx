@@ -6,7 +6,7 @@ import content from "@/utils/content.json";
 export default function page() {
   const { contactPage } = content;
   return (
-    <div className="bg-gray-900">
+    <div className="bg-white dark:bg-gray-900">
       <div className="flex lg:flex-row flex-col items-start justify-center gap-0">
         <div className="w-1/2">
           <Image
@@ -29,7 +29,7 @@ export default function page() {
             }}
           >
             <h1
-              className="mt-9 uppercase font-sans text-white text-[72px] md:text-[144px] leading-none"
+              className="mt-9 uppercase font-sans text-black dark:text-white text-[72px] md:text-[144px] leading-none"
               dangerouslySetInnerHTML={{
                 __html: contactPage.title1,
               }}
@@ -46,7 +46,7 @@ export default function page() {
             }}
           >
             <h1
-              className="mt-4 uppercase font-sans text-white text-[72px] md:text-[144px] leading-none"
+              className="mt-4 uppercase font-sans text-black dark:text-white text-[72px] md:text-[144px] leading-none"
               dangerouslySetInnerHTML={{
                 __html: contactPage.title2,
               }}
@@ -55,23 +55,23 @@ export default function page() {
           <form>
             <div className="mt-10 flex lg:flex-row flex-col items-start justify-center gap-x-8">
               <div className="w-1/2">
-                <p className="font-gambeta text-gray-300 text-2xl italic">
+                <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                   {contactPage.metaName}
                 </p>
                 <input
                   type="text"
                   placeholder={contactPage.namePlaceholder}
-                  className="mt-2 w-full px-4 py-3 bg-gray-600 placeholder-gray-300 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="mt-2 w-full px-4 py-3 bg-gray-100 dark:bg-gray-600 placeholder-gray-800 dark:placeholder-gray-300 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
               <div className="w-1/2">
-                <p className="font-gambeta text-gray-300 text-2xl italic">
+                <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                   {contactPage.metaEmail}
                 </p>
                 <input
                   type="email"
                   placeholder={contactPage.emailPlaceholder}
-                  className="mt-2 w-full px-4 py-3 bg-gray-600 placeholder-gray-300 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="mt-2 w-full px-4 py-3 bg-gray-100 dark:bg-gray-600 placeholder-gray-800 dark:placeholder-gray-300 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
             </div>
@@ -79,11 +79,11 @@ export default function page() {
               <div className="w-full">
                 <textarea
                   placeholder={contactPage.messagePlaceholder}
-                  className="w-full px-4 py-3 bg-gray-600 placeholder-gray-300 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 h-32 resize-none"
+                  className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-600 placeholder-gray-800 dark:placeholder-gray-300 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 h-32 resize-none"
                 ></textarea>
                 <button
                   type="submit"
-                  className="w-full font-semibold mt-6 px-6 py-3 bg-white text-black text-2xl rounded-xl transition-colors duration-300"
+                  className="w-full font-semibold mt-6 px-6 py-3 bg-black dark:bg-white text-white dark:text-black text-2xl rounded-xl transition-colors duration-300"
                 >
                   {contactPage.button}
                 </button>
