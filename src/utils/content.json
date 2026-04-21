@@ -299,5 +299,35 @@
     "title": "404",
     "description": "Unfortunately the page you are looking for <br /> could not be found.",
     "button": "Back to Homepage"
+  },
+  "licensingPage": {
+    "img": "slide-1",
+    "title": "LICENSING",
+    "description": "All graphical assets in this template are licensed for personal and commercial use. If you'd like to use a specific asset, please check the license.",
+    "links": {
+      "name": "Images",
+      "items": [
+        {
+          "name": "Pixels",
+          "href": "https://www.pexels.com/de-de/collections/template-kajo-ddlss4q/",
+          "alt": "Gallery"
+        },
+        {
+          "name": "Creatroom",
+          "href": "https://creatoom.com/",
+          "alt": "Source"
+        },
+        {
+          "name": "Pixeden Club",
+          "href": "https://www.pixeden.com/free-graphics",
+          "alt": "Source"
+        },
+        {
+          "name": "UILogos",
+          "href": "https://uilogos.co/",
+          "alt": "Source"
+        }
+      ]
+    }
   }
 }
