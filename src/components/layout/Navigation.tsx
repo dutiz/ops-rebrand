@@ -18,7 +18,7 @@ const NavItem = ({ children, href, classname, style }: NavItemProps) => {
     <li className="w-full md:w-auto">
       <Link
         style={style}
-        className={`block font-semibold mt-2 py-4 md:py-0 border-b border-gray-200 md:border-transparent ${classname}`}
+        className={`block font-semibold text-xl mt-2 py-4 md:py-0 border-b border-gray-200 md:border-transparent ${classname}`}
         href={href}
       >
         {children}
@@ -78,7 +78,7 @@ export default function Navigation() {
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-row items-center py-6 justify-between">
           <div
-            className={`${pathname === "/" || pathname === "/contact" ? "md:w-3/5" : "md:w-1/3"}`}
+            className={`${pathname === "/" || pathname === "/licensing" || pathname === "/contact" ? "md:w-3/5" : "md:w-1/3"}`}
           >
             <Link href="/" className="inline-block">
               <Image
@@ -105,7 +105,7 @@ export default function Navigation() {
           </div>
 
           <div
-            className={`${pathname === "/" || pathname === "/contact" ? "md:w-3/5" : "md:w-1/3"} md:flex justify-center md:justify-end ${
+            className={`${pathname === "/" || pathname === "/licensing" || pathname === "/contact" ? "md:w-3/5" : "md:w-1/3"} md:flex justify-center md:justify-end ${
               menu ? " flex" : " hidden"
             }`}
           >
@@ -124,7 +124,7 @@ export default function Navigation() {
             </ul>
           </div>
           <div
-            className={`${pathname === "/" || pathname === "/contact" ? "md:w-1/5" : "md:w-1/3"} text-end`}
+            className={`${pathname === "/" || pathname === "/licensing" || pathname === "/contact" ? "md:w-1/4" : "md:w-1/3"} text-end`}
           >
             <ul
               className={`flex w-full p-5 space-x-10 flex-col md:w-auto md:py-6 px-14 md:flex-row items-center justify-end`}
