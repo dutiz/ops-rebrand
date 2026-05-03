@@ -10,7 +10,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ img, title, year }: ProjectCardProps) {
   return (
-    <div className="flex flex-col w-1/2">
+    <div className="flex flex-col w-full lg:w-1/2">
       <Image
         src={`/images/${img}.png`}
         width={540}

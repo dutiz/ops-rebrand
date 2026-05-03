@@ -24,7 +24,7 @@ export default function ServiceCard({
   return left ? (
     <div className="bg-gray-100 dark:bg-gray-600">
       <div className="flex md:flex-row flex-col gap-0">
-        <div className="flex flex-col gap-y-0 w-1/2">
+        <div className="flex flex-col gap-y-0 w-full lg:w-1/2">
           <Image
             src={`/images/${img}.png`}
             width={540}
@@ -33,7 +33,7 @@ export default function ServiceCard({
             alt={`${img}`}
           />
         </div>
-        <div className="flex relative flex-col gap-y-8 w-1/2 p-24 ">
+        <div className="flex relative flex-col gap-y-8 w-full lg:w-1/2 lg:p-24 p-10">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ export default function ServiceCard({
               ease: [0.22, 1, 0.36, 1],
             }}
           >
-            <h1 className="text-black dark:text-white font-sans text-[128px] leading-none uppercase">
+            <h1 className="text-black dark:text-white font-sans text-[64px] lg:text-[128px] leading-none uppercase">
               {title1}
             </h1>
           </motion.div>
@@ -58,7 +58,7 @@ export default function ServiceCard({
               ease: [0.22, 1, 0.36, 1],
             }}
           >
-            <h1 className="text-black dark:text-white font-sans text-[128px] leading-none uppercase">
+            <h1 className="text-black dark:text-white font-sans text-[64px] lg:text-[128px] leading-none uppercase">
               {title2}
             </h1>
           </motion.div>
@@ -73,7 +73,7 @@ export default function ServiceCard({
             }}
           >
             <p
-              className="mt-2 font-bold text-gray-400 text-4xl"
+              className="mt-2 font-bold text-gray-800 dark:text-gray-400 text-2xl lg:text-3xl"
               dangerouslySetInnerHTML={{ __html: children }}
             />
           </motion.div>
@@ -89,7 +89,7 @@ export default function ServiceCard({
             }}
           >
             <div className="flex flex-col w-full">
-              <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
+              <p className="font-gambeta text-gray-800 dark:text-gray-300 text-xl lg:text-2xl italic">
                 {meta.title}
               </p>
             </div>
@@ -105,19 +105,19 @@ export default function ServiceCard({
               ease: [0.22, 1, 0.36, 1],
             }}
           >
-            <div className="flex flex-col w-1/2">
-              <p className="text-2xl text-black dark:text-white font-bold">
+            <div className="flex flex-col w-full lg:w-1/2">
+              <p className="text-xl lg:text-2xl text-black dark:text-white font-bold">
                 {meta.list[0].name}
               </p>
-              <p className="mt-4 text-2xl text-black dark:text-white font-bold">
+              <p className="mt-4 text-xl lg:text-2xl text-black dark:text-white font-bold">
                 {meta.list[2].name}
               </p>
             </div>
-            <div className="flex flex-col w-1/2">
-              <p className="text-2xl text-black dark:text-white font-bold">
+            <div className="flex flex-col w-full lg:w-1/2">
+              <p className="text-xl lg:text-2xl text-black dark:text-white font-bold">
                 {meta.list[1].name}
               </p>
-              <p className="mt-4 text-2xl text-black dark:text-white font-bold">
+              <p className="mt-4 text-xl lg:text-2xl text-black dark:text-white font-bold">
                 {meta.list[3].name}
               </p>
             </div>
@@ -128,7 +128,7 @@ export default function ServiceCard({
   ) : (
     <div className="bg-gray-100 dark:bg-gray-600 h-full">
       <div className="flex md:flex-row flex-col gap-0">
-        <div className="flex relative flex-col gap-y-8 w-1/2 p-24 ">
+        <div className="flex relative flex-col gap-y-8 w-full lg:w-1/2 lg:p-24 p-10">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -139,7 +139,7 @@ export default function ServiceCard({
               ease: [0.22, 1, 0.36, 1],
             }}
           >
-            <h1 className="text-black dark:text-white font-sans text-[128px] leading-none uppercase">
+            <h1 className="text-black dark:text-white font-sans text-[64px] lg:text-[128px] leading-none uppercase">
               {title1}
             </h1>
           </motion.div>
@@ -153,7 +153,7 @@ export default function ServiceCard({
               ease: [0.22, 1, 0.36, 1],
             }}
           >
-            <h1 className="text-black dark:text-white font-sans text-[128px] leading-none uppercase">
+            <h1 className="text-black dark:text-white font-sans text-[64px] lg:text-[128px] leading-none uppercase">
               {title2}
             </h1>
           </motion.div>
@@ -168,7 +168,7 @@ export default function ServiceCard({
             }}
           >
             <p
-              className="mt-2 font-bold text-gray-800 dark:text-gray-400 text-3xl"
+              className="mt-2 font-bold text-gray-800 dark:text-gray-400 text-2xl lg:text-3xl"
               dangerouslySetInnerHTML={{ __html: children }}
             />
           </motion.div>
@@ -184,7 +184,7 @@ export default function ServiceCard({
             }}
           >
             <div className="flex flex-col w-full">
-              <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
+              <p className="font-gambeta text-gray-800 dark:text-gray-300 text-xl lg:text-2xl italic">
                 {meta.title}
               </p>
             </div>
@@ -200,25 +200,25 @@ export default function ServiceCard({
               ease: [0.22, 1, 0.36, 1],
             }}
           >
-            <div className="flex flex-col w-1/2">
-              <p className="text-2xl text-black dark:text-white font-bold">
+            <div className="flex flex-col w-full lg:w-1/2">
+              <p className="text-xl lg:text-2xl text-black dark:text-white font-bold">
                 {meta.list[0].name}
               </p>
-              <p className="mt-4 text-2xl text-black dark:text-white font-bold">
+              <p className="mt-4 text-xl lg:text-2xl text-black dark:text-white font-bold">
                 {meta.list[2].name}
               </p>
             </div>
-            <div className="flex flex-col w-1/2">
-              <p className="text-2xl text-black dark:text-white font-bold">
+            <div className="flex flex-col w-full lg:w-1/2">
+              <p className="text-xl lg:text-2xl text-black dark:text-white font-bold">
                 {meta.list[1].name}
               </p>
-              <p className="mt-4 text-2xl text-black dark:text-white font-bold">
+              <p className="mt-4 text-xl lg:text-2xl text-black dark:text-white font-bold">
                 {meta.list[3].name}
               </p>
             </div>
           </motion.div>
         </div>
-        <div className="flex flex-col gap-y-8 w-1/2">
+        <div className="flex flex-col gap-y-8 w-full lg:w-1/2 order-first lg:order-0">
           <Image
             src={`/images/${img}.png`}
             width={540}

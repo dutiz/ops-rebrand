@@ -70,7 +70,7 @@ export default function Navigation() {
 
   return (
     <div
-      className={`fixed w-full top-0 ${color ? "bg-white dark:bg-gray-900" : "bg-transparent"} ${
+      className={`fixed w-full top-0 ${color ? "bg-white dark:bg-gray-900" : "lg:bg-transparent bg-gray-900"} ${
         scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
       } items-center`}
       style={{ zIndex: "99999" }}

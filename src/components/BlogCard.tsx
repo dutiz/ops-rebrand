@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BlogCard({ post }: any) {
   return (
-    <div className="flex flex-col w-1/3">
+    <div className="flex flex-col w-full lg:w-1/3">
       <div className="bg-gray-100 dark:bg-gray-600 group hover:bg-gray-600 dark:hover:bg-gray-100 transition-all ease-in-out duration-700">
         <Link href={`/blog/${post.slug}`}>
           <Image

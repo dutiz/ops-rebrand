@@ -18,7 +18,7 @@ export default function AboutHeaderSection() {
             ease: [0.22, 1, 0.36, 1],
           }}
         >
-          <h1 className="font-sans uppercase text-[240px] text-center text-black dark:text-white">
+          <h1 className="font-sans uppercase text-[80px] lg:text-[240px] text-center text-black dark:text-white">
             {aboutHeaderSection.title}
           </h1>
         </motion.div>
@@ -32,7 +32,7 @@ export default function AboutHeaderSection() {
             ease: [0.22, 1, 0.36, 1],
           }}
         >
-          <p className="mt-2 text-black dark:text-white font-semibold text-7xl">
+          <p className="mt-2 text-black dark:text-white font-semibold text-3xl lg:text-7xl">
             {aboutHeaderSection.description}
           </p>
         </motion.div>

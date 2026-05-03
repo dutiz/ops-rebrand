@@ -16,7 +16,7 @@ export default function WorkContentSection({ content }: { content: any }) {
               width={526}
               height={526}
               alt={content.title}
-              className="w-full h-131.5 object-cover"
+              className="w-full h-auto lg:h-131.5 lg:object-cover"
               loading="eager"
             />
           </div>
@@ -31,7 +31,7 @@ export default function WorkContentSection({ content }: { content: any }) {
             className="flex md:flex-row flex-col min-h-screen"
           >
             <div className="md:w-1/2 w-full">
-              <div className="sticky top-20 flex-col items-center">
+              <div className="px-6 lg:px-0 sticky top-20 flex-col items-center">
                 <motion.div
                   initial={{ opacity: 0, y: 50 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -42,7 +42,7 @@ export default function WorkContentSection({ content }: { content: any }) {
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <h1 className="font-sans text-[128px] text-black dark:text-white leading-none uppercase">
+                  <h1 className="font-sans text-[64px] lg:text-[128px] text-black dark:text-white leading-none uppercase">
                     {content.headline1}
                   </h1>
                 </motion.div>
@@ -56,7 +56,7 @@ export default function WorkContentSection({ content }: { content: any }) {
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <h1 className="mt-2 font-sans text-[128px] text-black dark:text-white leading-none uppercase">
+                  <h1 className="mt-2 font-sans text-[64px] lg:text-[128px] text-black dark:text-white leading-none uppercase">
                     {content.headline2}
                   </h1>
                 </motion.div>
@@ -74,7 +74,7 @@ export default function WorkContentSection({ content }: { content: any }) {
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <p className="text-black dark:text-white font-semibold text-5xl ">
+                  <p className="mt-5 lg:mt-0 text-black dark:text-white font-semibold text-3xl lg:text-5xl ">
                     {content.text1}
                   </p>
                 </motion.div>
@@ -89,7 +89,7 @@ export default function WorkContentSection({ content }: { content: any }) {
                   }}
                 >
                   <p
-                    className="text-gray-800 dark:text-gray-300 text-lg mt-6"
+                    className="text-gray-800 dark:text-gray-300 text-base lg:text-lg mt-6"
                     dangerouslySetInnerHTML={{
                       __html: content.text2,
                     }}

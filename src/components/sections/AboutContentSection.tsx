@@ -17,7 +17,7 @@ export default function AboutContentSection() {
             ease: [0.22, 1, 0.36, 1],
           }}
         >
-          <h1 className="font-sans uppercase text-[200px] text-center text-black dark:text-white leading-none">
+          <h1 className="font-sans uppercase text-6xl lg:text-[200px] text-center text-black dark:text-white leading-none">
             {aboutContentSection.part1}
           </h1>
         </motion.div>
@@ -31,7 +31,7 @@ export default function AboutContentSection() {
             ease: [0.22, 1, 0.36, 1],
           }}
         >
-          <h1 className="mt-4 font-sans uppercase text-[200px] text-center text-black dark:text-white leading-none">
+          <h1 className="mt-4 font-sans uppercase text-6xl lg:text-[200px] text-center text-black dark:text-white leading-none">
             {aboutContentSection.part2}
           </h1>
         </motion.div>

@@ -32,7 +32,7 @@ export default function Section() {
           </motion.div>
         </div>
         <div className="md:w-1/2 w-full">
-          <div className="sticky mt-32 flex flex-col gap-y-24 justify-center px-6 md:px-12">
+          <div className="sticky mt-10 md:mt-32 flex flex-col gap-y-24 justify-center px-6 md:px-12">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ export default function Section() {
               }}
             >
               <h1
-                className="mt-9 font-sans text-black dark:text-white text-[72px] md:text-[144px] leading-none"
+                className="mt-9 font-sans text-black dark:text-white text-[80px] md:text-[144px] leading-none"
                 dangerouslySetInnerHTML={{
                   __html: headerSection.heading,
                 }}
@@ -61,14 +61,14 @@ export default function Section() {
               }}
             >
               <h1
-                className="-mt-23 font-sans text-black dark:text-white text-[72px] md:text-[144px] leading-none"
+                className="-mt-23 font-sans text-black dark:text-white text-[80px] md:text-[144px] leading-none"
                 dangerouslySetInnerHTML={{
                   __html: headerSection.heading2,
                 }}
               />
             </motion.div>
             <motion.div
-              className="mt-auto pb-16"
+              className="mt-auto pb-0 md:pb-16"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{
@@ -84,9 +84,9 @@ export default function Section() {
                 }}
               />
             </motion.div>
-            <div className="w-full flex flex-col gap-y-8">
+            <div className="w-full flex flex-col gap-y-0 md:gap-y-8">
               <motion.div
-                className="mt-auto pb-16"
+                className="mt-auto pb-4 md:pb-16"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -100,7 +100,7 @@ export default function Section() {
                 </p>
               </motion.div>
               <motion.div
-                className="mt-auto pb-16"
+                className="mt-auto pb-4 md:pb-16"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -109,7 +109,7 @@ export default function Section() {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <h1 className="mt-8 text-black dark:text-white text-[128px] font-sans leading-none uppercase">
+                <h1 className="mt-4 md:mt-8 text-black dark:text-white text-[64px] md:text-[80px] lg:text-[96px] font-sans leading-none uppercase">
                   {aboutSection.subtitle}
                 </h1>
               </motion.div>

@@ -13,7 +13,7 @@ export default function ServicePageConentCard({
   return (
     <>
       <div className="bg-white dark:bg-gray-900 py-17">
-        <div className="flex md:flex-row flex-col gap-4">
+        <div className="flex flex-row gap-4">
           <div className="w-2/5">
             <Image
               src={`/images/${serviceItem.img1}.png`}
@@ -37,7 +37,7 @@ export default function ServicePageConentCard({
         </div>
         <div
           ref={ref}
-          className="bg-white dark:bg-gray-900 py-20 container max-w-7xl mx-auto"
+          className="bg-white dark:bg-gray-900 md:py-20 py-10 px-10 container max-w-7xl mx-auto"
         >
           <motion.div
             initial={{ y: 100, opacity: 0 }}
@@ -56,7 +56,7 @@ export default function ServicePageConentCard({
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <h1 className="font-sans text-[128px] text-black dark:text-white leading-none uppercase">
+                  <h1 className="font-sans text-[80px] md:text-[128px] text-black dark:text-white leading-none uppercase">
                     {serviceItem.title1}
                   </h1>
                 </motion.div>
@@ -70,14 +70,14 @@ export default function ServicePageConentCard({
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <h1 className="mt-2 font-sans text-[128px] text-black dark:text-white leading-none uppercase">
+                  <h1 className="mt-2 font-sans text-[80px] md:text-[128px] text-black dark:text-white leading-none uppercase">
                     {serviceItem.title2}
                   </h1>
                 </motion.div>
               </div>
             </div>
             <div className="md:w-1/2 w-full">
-              <div className="sticky top-0 flex flex-col justify-center px-6 md:px-12">
+              <div className="sticky top-0 flex flex-col justify-center px-0 md:px-12 mt-5 md:mt-0">
                 <motion.div
                   initial={{ opacity: 0, y: 50 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +88,7 @@ export default function ServicePageConentCard({
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <p className="text-black dark:text-white font-semibold text-5xl ">
+                  <p className="text-black dark:text-white font-semibold text-3xl md:text-5xl ">
                     {serviceItem.description}
                   </p>
                 </motion.div>

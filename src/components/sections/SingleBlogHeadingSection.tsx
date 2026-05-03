@@ -24,12 +24,12 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
               height={800}
               src={post.image}
               alt={post.title}
-              className="w-full h-screen object-cover"
+              className="w-full h-auto lg:h-screen lg:object-cover"
             />
           </motion.div>
         </div>
         <div className="md:w-1/2 w-full">
-          <div className="sticky top-0 flex flex-col gap-y-24 justify-center px-6 md:px-12">
+          <div className="sticky top-0 flex flex-col gap-y-0 lg:gap-y-24 justify-center p-10 md:px-12">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -39,7 +39,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                 ease: [0.22, 1, 0.36, 1],
               }}
             >
-              <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
+              <p className="font-gambeta text-gray-800 dark:text-gray-300 text-xl lg:text-2xl italic">
                 ( {post.date} )
               </p>
             </motion.div>
@@ -54,14 +54,14 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
               }}
             >
               <h1
-                className="font-sans text-black dark:text-white text-[72px] md:text-[94px] leading-none"
+                className="mt-8 lg:mt-0 font-sans text-black dark:text-white text-[50px] lg:text-[72px] md:text-[94px] leading-none"
                 dangerouslySetInnerHTML={{
                   __html: post.title,
                 }}
               />
             </motion.div>
             <motion.div
-              className="mt-auto pb-16"
+              className="lg:mt-auto mt-5 lg:pb-16 pb-0"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{
@@ -71,15 +71,15 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
               }}
             >
               <p
-                className="text-2xl md:text-4xl font-semibold text-black dark:text-white"
+                className="text-lg lg:text-2xl md:text-4xl font-semibold text-black dark:text-white"
                 dangerouslySetInnerHTML={{
                   __html: post.excerpt,
                 }}
               />
             </motion.div>
-            <div className="w-full flex flex-col py-24 gap-y-8">
+            <div className="w-full flex flex-col py-10 lg:py-24 gap-y-0 lg:gap-y-8">
               <motion.div
-                className="mt-auto pb-16"
+                className="lg:mt-auto mt-0 lg:pb-16 pb-0"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -88,12 +88,12 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <h1 className="mt-8 text-black dark:text-white text-[64px] font-sans leading-none uppercase">
+                <h1 className="mt-8 text-black dark:text-white text-[32px] lg:text-[64px] font-sans leading-none uppercase">
                   {post.subtitle1}
                 </h1>
               </motion.div>
               <motion.div
-                className="mt-auto pb-16"
+                className="lg:mt-auto mt-0 lg:pb-16 pb-0"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -103,14 +103,14 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                 }}
               >
                 <p
-                  className="mt-2 text-gray-800 dark:text-gray-300 text-2xl"
+                  className="my-5 text-gray-800 dark:text-gray-300 text-base lg:text-2xl"
                   dangerouslySetInnerHTML={{
                     __html: post.content1,
                   }}
                 ></p>
               </motion.div>
               <motion.div
-                className="mt-auto pb-16"
+                className="mt-0 lg:mt-auto lg:pb-16 pb-0"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -119,12 +119,12 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <h1 className="mt-8 text-black dark:text-white text-[64px] font-sans leading-none uppercase">
+                <h1 className="mt-5 text-black dark:text-white text-[32px] lg:text-[64px] font-sans leading-none uppercase">
                   {post.subtitle2}
                 </h1>
               </motion.div>
               <motion.div
-                className="mt-auto pb-16"
+                className="mt-0 lg:mt-auto lg:pb-16 pb-0"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -134,14 +134,14 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                 }}
               >
                 <p
-                  className="mt-2 text-gray-800 dark:text-gray-300 text-2xl"
+                  className="my-5 text-gray-800 dark:text-gray-300 text-base lg:text-2xl"
                   dangerouslySetInnerHTML={{
                     __html: post.content2,
                   }}
                 />
               </motion.div>
               <motion.div
-                className="mt-auto pb-16"
+                className="mt-0 lg:mt-auto lg:pb-16 pb-0"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -150,12 +150,12 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                   ease: [0.22, 1, 0.36, 1],
                 }}
               >
-                <h1 className="mt-8 text-black dark:text-white text-[64px] font-sans leading-none uppercase">
+                <h1 className="mt-5 text-black dark:text-white text-[32px] lg:text-[64px] font-sans leading-none uppercase">
                   {post.subtitle3}
                 </h1>
               </motion.div>
               <motion.div
-                className="mt-auto pb-16"
+                className="mt-0 lg:mt-auto lg:pb-16 pb-0"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{
@@ -165,7 +165,7 @@ export default function SingleBlogHeadingSection({ post }: { post: any }) {
                 }}
               >
                 <p
-                  className="mt-2 text-gray-800 dark:text-gray-300 text-2xl"
+                  className="my-5 text-gray-800 dark:text-gray-300 text-base lg:text-2xl"
                   dangerouslySetInnerHTML={{
                     __html: post.content3,
                   }}

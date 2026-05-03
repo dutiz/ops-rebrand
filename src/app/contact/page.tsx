@@ -8,7 +8,7 @@ export default function page() {
   return (
     <div className="bg-white dark:bg-gray-900">
       <div className="flex lg:flex-row flex-col items-start justify-center gap-0">
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <Image
             src={`/images/${contactPage.img}.png`}
             alt={contactPage.img}
@@ -17,7 +17,7 @@ export default function page() {
             className="w-full h-auto"
           />
         </div>
-        <div className="w-1/2 p-19">
+        <div className="w-full lg:w-1/2 p-19">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ export default function page() {
           </motion.div>
           <form>
             <div className="mt-10 flex lg:flex-row flex-col items-start justify-center gap-x-8">
-              <div className="w-1/2">
+              <div className="w-full lg:w-1/2">
                 <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                   {contactPage.metaName}
                 </p>
@@ -64,7 +64,7 @@ export default function page() {
                   className="mt-2 w-full px-4 py-3 bg-gray-100 dark:bg-gray-600 placeholder-gray-800 dark:placeholder-gray-300 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
-              <div className="w-1/2">
+              <div className="w-full lg:w-1/2 mt-5 lg:mt-0">
                 <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                   {contactPage.metaEmail}
                 </p>

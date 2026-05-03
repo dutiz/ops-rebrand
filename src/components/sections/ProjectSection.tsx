@@ -14,7 +14,7 @@ export default function ProjectSection() {
   const { projectSection } = content;
   return (
     <div className="bg-gray-100 dark:bg-gray-600">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-7xl px-4">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -25,7 +25,7 @@ export default function ProjectSection() {
             ease: [0.22, 1, 0.36, 1],
           }}
         >
-          <div className="flex md:flex-row flex-col justify-between py-24">
+          <div className="flex flex-row justify-between py-24">
             <div className="flex flex-col">
               <p className="font-gambeta text-gray-800 dark:text-gray-300 text-2xl italic">
                 {projectSection.title}
@@ -50,7 +50,7 @@ export default function ProjectSection() {
                 ease: [0.22, 1, 0.36, 1],
               }}
             >
-              <h1 className="font-sans text-[320px] text-black dark:text-white uppercase leading-none">
+              <h1 className="font-sans lg:text-[140px] md:text-[80px] text-black dark:text-white uppercase leading-none">
                 {projectSection.subtitle}
               </h1>
             </motion.div>
@@ -64,7 +64,7 @@ export default function ProjectSection() {
                 ease: [0.22, 1, 0.36, 1],
               }}
             >
-              <p className="mt-2 text-black dark:text-white text-7xl">
+              <p className="mt-2 text-black dark:text-white lg:text-7xl md:text-5xl text-3xl ">
                 {projectSection.description}
               </p>
             </motion.div>
