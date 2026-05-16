@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "motion/react";
+import { mergeMetaData } from "@/utils/seo";
 import content from "@/utils/content.json";
 
 export default function page() {
@@ -95,3 +96,16 @@ export default function page() {
     </div>
   );
 }
+
+export const metadata = mergeMetaData({
+  title: "Contact | One Percent Studio - Branding Agency",
+  description:
+    "Get in touch with a global branding agency to build a powerful and modern brand.",
+  keywords:
+    "hire branding agency, contact branding studio, branding services for startups, work with branding agency",
+  openGraph: {
+    title: "Contact | One Percent Studio - Branding Agency",
+    description:
+      "Get in touch with a global branding agency to build a powerful and modern brand.",
+  },
+});
