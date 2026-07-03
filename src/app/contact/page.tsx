@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { motion } from "motion/react";
-import { mergeMetaData } from "@/utils/seo";
 import content from "@/utils/content.json";
 
 export default function page() {
@@ -96,16 +95,3 @@ export default function page() {
     </div>
   );
 }
-
-export const metadata = mergeMetaData({
-  title: "Contact Us | One Percent Studio",
-  description:
-    "Learn more about One Percent Studio, our mission, values, and the team behind our branding services.",
-  keywords:
-    "about one percent studio, branding agency, brand strategy, brand identity design",
-  openGraph: {
-    title: "About Us | One Percent Studio",
-    description:
-      "Learn more about One Percent Studio, our mission, values, and the team behind our branding services.",
-  },
-});
