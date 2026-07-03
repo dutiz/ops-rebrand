@@ -98,14 +98,14 @@ export default function page() {
 }
 
 export const metadata = mergeMetaData({
-  title: "Contact | One Percent Studio - Branding Agency",
+  title: "Contact Us | One Percent Studio",
   description:
-    "Get in touch with a global branding agency to build a powerful and modern brand.",
+    "Learn more about One Percent Studio, our mission, values, and the team behind our branding services.",
   keywords:
-    "hire branding agency, contact branding studio, branding services for startups, work with branding agency",
+    "about one percent studio, branding agency, brand strategy, brand identity design",
   openGraph: {
-    title: "Contact | One Percent Studio - Branding Agency",
+    title: "About Us | One Percent Studio",
     description:
-      "Get in touch with a global branding agency to build a powerful and modern brand.",
+      "Learn more about One Percent Studio, our mission, values, and the team behind our branding services.",
   },
 });
