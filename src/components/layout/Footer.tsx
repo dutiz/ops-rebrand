@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Image from "next/image";
 import content from "@/utils/content.json";
 import Link from "next/link";
+import SVG from "react-inlinesvg";
 
 export default function Footer() {
   const { footer } = content;
@@ -11,12 +11,9 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto">
           <div className="flex md:flex-row flex-col gap-4">
             <div className="flex flex-col gap-y-8 w-full">
-              <Image
-                src={`/images/${footer.img}.png`}
-                width={827}
-                height={320}
-                alt="logo-img"
-                className="mx-auto"
+              <SVG
+                src={`/svg/${footer.img}.svg`}
+                className="fill-white dark:fill-black h-80 w-auto"
               />
             </div>
           </div>

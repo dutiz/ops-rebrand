@@ -60,10 +60,10 @@
         { "name": "Twitter/X", "href": "https://x.com/" }
       ]
     },
-    "copyright": "One Percent Studio , All Rights Reservered"
+    "copyright": "Meroe Studio , All Rights Reservered"
   },
   "headerSection": {
-    "heading": "ONE <br /> PERCENT",
+    "heading": "MEROE",
     "heading2": "STUDIO",
     "subheading": "Crafting impactful brands and <br /> websites that drive growth <br /> and success.",
     "slides": [{ "img": "slide-1" }, { "img": "slide-2" }, { "img": "slide-3" }]
@@ -148,7 +148,7 @@
     ]
   },
   "aboutHeaderSection": {
-    "title": "One Percent",
+    "title": "MEROE STUDIO",
     "description": "Discover our mission, values, & the team behind our success."
   },
   "aboutContentSection": {

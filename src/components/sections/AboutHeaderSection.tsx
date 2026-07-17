@@ -18,7 +18,7 @@ export default function AboutHeaderSection() {
             ease: [0.22, 1, 0.36, 1],
           }}
         >
-          <h1 className="font-sans uppercase text-[80px] lg:text-[240px] text-center text-black dark:text-white">
+          <h1 className="mt-10 font-sans uppercase text-5xl lg:text-[200px] text-center text-black dark:text-white">
             {aboutHeaderSection.title}
           </h1>
         </motion.div>
