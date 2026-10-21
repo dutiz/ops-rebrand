@@ -41,6 +41,90 @@
         { "src": "/images/works/acme/img-5.png" }
       ],
       "services": "Branding, Website Design & Development" 
-    }
+    },
+    {
+      "id": 3,
+       "title": "VINDEX GYM",
+       "slug": "vindexgym",
+       "intro": "Full rebranding for a tech startup aiming to disrupt.",
+       "client": "VINDEX GYM",
+       "year": 2021,
+       "cover": "/images/works/acme/cover.png",
+       "headline1": "Innovative",
+       "headline2": "Design",
+       "text1": "The Vindex Gym project brought to life a brand new, highperformance fitness facility entering a competitive market.",
+       "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Vindex Gym as a premier destination for athletic conditioning, health, and personal growth right from day one. Working closely with the founders, we built a distinctive, high-energy brand identity from scratch to inspire motivation—featuring bold visual aesthetics, a dynamic color palette, and clear messaging that reflects Vindex Gym’s commitment to fitness excellence.<br/> <br/> From logo design and brand guidelines to typography and digital assets, every element was created to communicate strength, community, and energy. The website was designed with an intuitive user interface, making it effortless for prospective members to explore class schedules, book personal training sessions, and sign up for memberships online.<br/> <br/>Following the launch, Vindex Gym experienced a significant surge in initial member sign-ups and online inquiries. The new digital presence successfully established their market presence from launch day, streamlined the membership onboarding process, and drove strong community engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a new fitness business for immediate success.",
+       "gallery": [
+         { "src": "/images/works/acme/img-1.png" },
+         { "src": "/images/works/acme/img-2.png" },
+         { "src": "/images/works/acme/img-3.png" },
+         { "src": "/images/works/acme/img-4.png" },
+         { "src": "/images/works/acme/img-5.png" }
+       ],
+       "services": "Branding, Website Design & Development" 
+     },
+     {
+      "id": 4,
+       "title": "BISTRO VOTRA UND ELBINSEL",
+       "slug": "bistrovotra",
+       "intro": "Full rebranding for a tech startup aiming to disrupt.",
+       "client": "BISTRO VOTRA UND ELBINSEL",
+       "year": 2021,
+       "cover": "/images/works/acme/cover.png",
+       "headline1": "Innovative",
+       "headline2": "Design",
+       "text1": "Bistro Votra project brought to life a brand new culinary destination entering Hamburg’s vibrant traditional scene.",
+       "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Bistro Votra as a distinctive, welcoming haven for food enthusiasts right from day one. Working closely with the founders, we built a cohesive, sophisticated brand identity from scratch—featuring refined visual aesthetics, an inviting color palette, and clear messaging that reflects Bistro Votra’s culinary philosophy and passion for quality.<br/> <br/> From logo design and brand guidelines to typography and digital menus, every element was crafted to communicate authenticity, warmth, and elevated hospitality. The website was designed with an intuitive user interface, making it effortless for guests to explore the menu, check opening hours, and reserve a table online seamlessly.<br/> <br/> Following the launch, Bistro Votra experienced a strong surge in table reservations and local inquiries. The new digital presence successfully established their market footprint from opening day, streamlined the reservation process, and drove high guest engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a new dining concept for immediate success.",
+       "gallery": [
+         { "src": "/images/works/acme/img-1.png" },
+         { "src": "/images/works/acme/img-2.png" },
+         { "src": "/images/works/acme/img-3.png" },
+         { "src": "/images/works/acme/img-4.png" },
+         { "src": "/images/works/acme/img-5.png" }
+       ],
+       "services": "Branding, Website Design & Development" 
+     },
+     {
+      "id": 5,
+       "title": "VINDEX GYM",
+       "slug": "vindexgym",
+       "intro": "Full rebranding for a tech startup aiming to disrupt.",
+       "client": "VINDEX GYM",
+       "year": 2021,
+       "cover": "/images/works/acme/cover.png",
+       "headline1": "Innovative",
+       "headline2": "Design",
+       "text1": "The Vindex Gym project brought to life a brand new, highperformance fitness facility entering a competitive market.",
+       "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Vindex Gym as a premier destination for athletic conditioning, health, and personal growth right from day one. Working closely with the founders, we built a distinctive, high-energy brand identity from scratch to inspire motivation—featuring bold visual aesthetics, a dynamic color palette, and clear messaging that reflects Vindex Gym’s commitment to fitness excellence.<br/> <br/> From logo design and brand guidelines to typography and digital assets, every element was created to communicate strength, community, and energy. The website was designed with an intuitive user interface, making it effortless for prospective members to explore class schedules, book personal training sessions, and sign up for memberships online.<br/> <br/>Following the launch, Vindex Gym experienced a significant surge in initial member sign-ups and online inquiries. The new digital presence successfully established their market presence from launch day, streamlined the membership onboarding process, and drove strong community engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a new fitness business for immediate success.",
+       "gallery": [
+         { "src": "/images/works/acme/img-1.png" },
+         { "src": "/images/works/acme/img-2.png" },
+         { "src": "/images/works/acme/img-3.png" },
+         { "src": "/images/works/acme/img-4.png" },
+         { "src": "/images/works/acme/img-5.png" }
+       ],
+       "services": "Branding, Website Design & Development" 
+     },
+     {
+      "id": 6,
+       "title": "VINDEX GYM",
+       "slug": "vindexgym",
+       "intro": "Full rebranding for a tech startup aiming to disrupt.",
+       "client": "VINDEX GYM",
+       "year": 2021,
+       "cover": "/images/works/acme/cover.png",
+       "headline1": "Innovative",
+       "headline2": "Design",
+       "text1": "The Vindex Gym project brought to life a brand new, highperformance fitness facility entering a competitive market.",
+       "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Vindex Gym as a premier destination for athletic conditioning, health, and personal growth right from day one. Working closely with the founders, we built a distinctive, high-energy brand identity from scratch to inspire motivation—featuring bold visual aesthetics, a dynamic color palette, and clear messaging that reflects Vindex Gym’s commitment to fitness excellence.<br/> <br/> From logo design and brand guidelines to typography and digital assets, every element was created to communicate strength, community, and energy. The website was designed with an intuitive user interface, making it effortless for prospective members to explore class schedules, book personal training sessions, and sign up for memberships online.<br/> <br/>Following the launch, Vindex Gym experienced a significant surge in initial member sign-ups and online inquiries. The new digital presence successfully established their market presence from launch day, streamlined the membership onboarding process, and drove strong community engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a new fitness business for immediate success.",
+       "gallery": [
+         { "src": "/images/works/acme/img-1.png" },
+         { "src": "/images/works/acme/img-2.png" },
+         { "src": "/images/works/acme/img-3.png" },
+         { "src": "/images/works/acme/img-4.png" },
+         { "src": "/images/works/acme/img-5.png" }
+       ],
+       "services": "Branding, Website Design & Development" 
+     }
   ]
 }
