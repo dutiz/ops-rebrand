@@ -1,22 +1,22 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 export const defaultData = {
-  title: "One Percent Studio",
+  title: "Meroe Studio",
   description:
     "Crafting impactful brands and sites that drive growth and success.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "One Percent Studio",
+    title: "Meroe Studio",
     type: "website",
-    siteName: "One Percent Studio",
+    siteName: "Meroe Studio",
     locale: "en_US",
     description:
       "Crafting impactful brands and sites that drive growth and success.",
     images: [
       {
         url: "/images/og_image.jpg",
-        alt: "One Percent Studio – Crafting impactful brands and sites that drive growth and success.",
+        alt: "Meroe Studio – Crafting impactful brands and sites that drive growth and success.",
       },
     ],
   },

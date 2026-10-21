@@ -14,14 +14,14 @@ export default function page() {
 }
 
 export const metadata = mergeMetaData({
-  title: "About Us | One Percent Studio",
+  title: "About Us | Meroe Studio",
   description:
-    "Learn more about One Percent Studio, our mission, values, and the team behind our branding services.",
+    "Learn more about Meroe Studio, our mission, values, and the team behind our branding services.",
   keywords:
-    "about one percent studio, branding agency, brand strategy, brand identity design",
+    "about Meroe studio, branding agency, brand strategy, brand identity design",
   openGraph: {
-    title: "About Us | One Percent Studio",
+    title: "About Us | Meroe Studio",
     description:
-      "Learn more about One Percent Studio, our mission, values, and the team behind our branding services.",
+      "Learn more about Meroe Studio, our mission, values, and the team behind our branding services.",
   },
 });

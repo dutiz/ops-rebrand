@@ -20,13 +20,13 @@ export default function Home() {
 }
 
 export const metadata = mergeMetaData({
-  title: "Branding Agency for Startups | One Percent Studio",
+  title: "Branding Agency for Startups | Meroe Studio",
   description:
     "We build modern brand identities and strategies for startups and growing businesses worldwide.",
   keywords:
     "branding agency for startups, brand identity design, brand strategy agency, creative branding studio, global branding services",
   openGraph: {
-    title: "Branding Agency for Startups | One Percent Studio",
+    title: "Branding Agency for Startups | Meroe Studio",
     description:
       "We build modern brand identities and strategies for startups and growing businesses worldwide.",
   },

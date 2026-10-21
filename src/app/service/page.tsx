@@ -26,7 +26,7 @@ export default function page() {
 }
 
 export const metadata = mergeMetaData({
-  title: "Branding Services | Strategy, Identity & Design | One Percent Studio",
+  title: "Branding Services | Strategy, Identity & Design | Meroe Studio",
   description:
     "Explore our branding services including brand strategy, identity design, and rebranding for modern businesses.",
   keywords:

@@ -23,7 +23,7 @@ export default function work() {
 }
 
 export const metadata = mergeMetaData({
-  title: "Branding Portfolio | Our Work & Case Studies | One Percent Studio",
+  title: "Branding Portfolio | Our Work & Case Studies | Meroe Studio",
   description:
     "Explore our branding projects, case studies, and brand identity work for startups and businesses worldwide.",
   keywords:
