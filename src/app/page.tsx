@@ -13,7 +13,6 @@ export default function Home() {
       {/* <AboutSection /> */}
       {/* Project Section */}
       <ProjectSection />
-      {/* Service Section */}
       <ServiceSection />
     </>
   );
