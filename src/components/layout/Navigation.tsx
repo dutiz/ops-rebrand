@@ -64,7 +64,7 @@ export default function MobileNav() {
         color
           ? "bg-white dark:bg-black"
           : "lg:bg-transparent lg:dark:bg-transparent dark:bg-black bg-white",
-        scrollDirection === "down" ? "-translate-y-full" : "translate-y-0",
+        scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
       )}
     >
       <div className="px-6 mx-auto max-w-7xl">
@@ -82,7 +82,13 @@ export default function MobileNav() {
           </motion.a>
 
           <ul
-            className={`items-center hidden gap-8 lg:flex ${pathname === "/" || pathname === "/licensing" || pathname === "/contact" ? "ml-70" : "ml-0"}`}
+            className={`items-center hidden gap-8 lg:flex ${
+              pathname === "/" ||
+              pathname === "/licensing" ||
+              pathname === "/contact"
+                ? "ml-70"
+                : "ml-0"
+            }`}
           >
             {navigation.items.slice(0, -1).map((link, i) => (
               <motion.li
@@ -94,7 +100,7 @@ export default function MobileNav() {
                 <a
                   href={link.href}
                   className={clsx(
-                    "block font-semibold text-xl mt-2 py-4 md:py-0 border-b border-gray-200 md:border-transparent text-black dark:text-white animation-border",
+                    "block font-semibold text-xl mt-2 py-4 md:py-0 border-b border-gray-200 md:border-transparent text-black dark:text-white animation-border"
                   )}
                 >
                   {link.name}
@@ -109,7 +115,7 @@ export default function MobileNav() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Let&apos;s Talk
+            Let&apos;s Create
           </motion.a>
 
           <button
@@ -120,19 +126,19 @@ export default function MobileNav() {
             <span
               className={clsx(
                 "block h-0.5 w-6 dark:bg-white bg-black transition-all duration-300",
-                open ? "rotate-45 translate-y-1.25" : "",
+                open ? "rotate-45 translate-y-1.25" : ""
               )}
             />
             <span
               className={clsx(
                 "block h-0.5 w-6 dark:bg-white bg-black transition-all duration-300 mt-1.5",
-                open ? "opacity-0 scale-0" : "",
+                open ? "opacity-0 scale-0" : ""
               )}
             />
             <span
               className={clsx(
                 "block h-0.5 w-6 dark:bg-white bg-black transition-all duration-300 mt-1.5",
-                open ? "-rotate-45 -translate-y-1.75" : "",
+                open ? "-rotate-45 -translate-y-1.75" : ""
               )}
             />
           </button>
@@ -158,7 +164,7 @@ export default function MobileNav() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.1 }}
                   className={clsx(
-                    "text-3xl dark:text-white text-black font-bold font-poppins tracking-wide transition-colors",
+                    "text-3xl dark:text-white text-black font-bold font-poppins tracking-wide transition-colors"
                   )}
                 >
                   {link.name}
@@ -172,7 +178,7 @@ export default function MobileNav() {
                 transition={{ delay: 0.6 }}
                 className="text-3xl dark:text-white text-black font-bold font-poppins tracking-wide transition-colors"
               >
-                Let&apos;s Talk
+                Let&apos;s Create
               </motion.a>
             </div>
           </motion.div>
