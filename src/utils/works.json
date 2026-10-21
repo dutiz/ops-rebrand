@@ -22,7 +22,7 @@
       "services": "Branding, Website Design & Development"
     },
     {
-     "id": 2,
+      "id": 2,
       "title": "GTZ",
       "slug": "gtz",
       "intro": "Full rebranding for a tech startup aiming to disrupt.",
@@ -40,91 +40,133 @@
         { "src": "/images/works/acme/img-4.png" },
         { "src": "/images/works/acme/img-5.png" }
       ],
-      "services": "Branding, Website Design & Development" 
+      "services": "Branding, Website Design & Development"
     },
     {
       "id": 3,
-       "title": "VINDEX GYM",
-       "slug": "vindexgym",
-       "intro": "Full rebranding for a tech startup aiming to disrupt.",
-       "client": "VINDEX GYM",
-       "year": 2021,
-       "cover": "/images/works/acme/cover.png",
-       "headline1": "Innovative",
-       "headline2": "Design",
-       "text1": "The Vindex Gym project brought to life a brand new, highperformance fitness facility entering a competitive market.",
-       "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Vindex Gym as a premier destination for athletic conditioning, health, and personal growth right from day one. Working closely with the founders, we built a distinctive, high-energy brand identity from scratch to inspire motivation—featuring bold visual aesthetics, a dynamic color palette, and clear messaging that reflects Vindex Gym’s commitment to fitness excellence.<br/> <br/> From logo design and brand guidelines to typography and digital assets, every element was created to communicate strength, community, and energy. The website was designed with an intuitive user interface, making it effortless for prospective members to explore class schedules, book personal training sessions, and sign up for memberships online.<br/> <br/>Following the launch, Vindex Gym experienced a significant surge in initial member sign-ups and online inquiries. The new digital presence successfully established their market presence from launch day, streamlined the membership onboarding process, and drove strong community engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a new fitness business for immediate success.",
-       "gallery": [
-         { "src": "/images/works/acme/img-1.png" },
-         { "src": "/images/works/acme/img-2.png" },
-         { "src": "/images/works/acme/img-3.png" },
-         { "src": "/images/works/acme/img-4.png" },
-         { "src": "/images/works/acme/img-5.png" }
-       ],
-       "services": "Branding, Website Design & Development" 
-     },
-     {
+      "title": "VINDEX GYM",
+      "slug": "vindexgym",
+      "intro": "Full rebranding for a tech startup aiming to disrupt.",
+      "client": "VINDEX GYM",
+      "year": 2021,
+      "cover": "/images/works/acme/cover.png",
+      "headline1": "Innovative",
+      "headline2": "Design",
+      "text1": "The Vindex Gym project brought to life a brand new, highperformance fitness facility entering a competitive market.",
+      "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Vindex Gym as a premier destination for athletic conditioning, health, and personal growth right from day one. Working closely with the founders, we built a distinctive, high-energy brand identity from scratch to inspire motivation—featuring bold visual aesthetics, a dynamic color palette, and clear messaging that reflects Vindex Gym’s commitment to fitness excellence.<br/> <br/> From logo design and brand guidelines to typography and digital assets, every element was created to communicate strength, community, and energy. The website was designed with an intuitive user interface, making it effortless for prospective members to explore class schedules, book personal training sessions, and sign up for memberships online.<br/> <br/>Following the launch, Vindex Gym experienced a significant surge in initial member sign-ups and online inquiries. The new digital presence successfully established their market presence from launch day, streamlined the membership onboarding process, and drove strong community engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a new fitness business for immediate success.",
+      "gallery": [
+        { "src": "/images/works/acme/img-1.png" },
+        { "src": "/images/works/acme/img-2.png" },
+        { "src": "/images/works/acme/img-3.png" },
+        { "src": "/images/works/acme/img-4.png" },
+        { "src": "/images/works/acme/img-5.png" }
+      ],
+      "services": "Branding, Website Design & Development"
+    },
+    {
       "id": 4,
-       "title": "BISTRO VOTRA UND ELBINSEL",
-       "slug": "bistrovotra",
-       "intro": "Full rebranding for a tech startup aiming to disrupt.",
-       "client": "BISTRO VOTRA UND ELBINSEL",
-       "year": 2021,
-       "cover": "/images/works/acme/cover.png",
-       "headline1": "Innovative",
-       "headline2": "Design",
-       "text1": "Bistro Votra project brought to life a brand new culinary destination entering Hamburg’s vibrant traditional scene.",
-       "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Bistro Votra as a distinctive, welcoming haven for food enthusiasts right from day one. Working closely with the founders, we built a cohesive, sophisticated brand identity from scratch—featuring refined visual aesthetics, an inviting color palette, and clear messaging that reflects Bistro Votra’s culinary philosophy and passion for quality.<br/> <br/> From logo design and brand guidelines to typography and digital menus, every element was crafted to communicate authenticity, warmth, and elevated hospitality. The website was designed with an intuitive user interface, making it effortless for guests to explore the menu, check opening hours, and reserve a table online seamlessly.<br/> <br/> Following the launch, Bistro Votra experienced a strong surge in table reservations and local inquiries. The new digital presence successfully established their market footprint from opening day, streamlined the reservation process, and drove high guest engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a new dining concept for immediate success.",
-       "gallery": [
-         { "src": "/images/works/acme/img-1.png" },
-         { "src": "/images/works/acme/img-2.png" },
-         { "src": "/images/works/acme/img-3.png" },
-         { "src": "/images/works/acme/img-4.png" },
-         { "src": "/images/works/acme/img-5.png" }
-       ],
-       "services": "Branding, Website Design & Development" 
-     },
-     {
+      "title": "BISTRO VOTRA UND ELBINSEL",
+      "slug": "bistrovotra",
+      "intro": "Full rebranding for a tech startup aiming to disrupt.",
+      "client": "BISTRO VOTRA UND ELBINSEL",
+      "year": 2021,
+      "cover": "/images/works/acme/cover.png",
+      "headline1": "Innovative",
+      "headline2": "Design",
+      "text1": "Bistro Votra project brought to life a brand new culinary destination entering Hamburg’s vibrant traditional scene.",
+      "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Bistro Votra as a distinctive, welcoming haven for food enthusiasts right from day one. Working closely with the founders, we built a cohesive, sophisticated brand identity from scratch—featuring refined visual aesthetics, an inviting color palette, and clear messaging that reflects Bistro Votra’s culinary philosophy and passion for quality.<br/> <br/> From logo design and brand guidelines to typography and digital menus, every element was crafted to communicate authenticity, warmth, and elevated hospitality. The website was designed with an intuitive user interface, making it effortless for guests to explore the menu, check opening hours, and reserve a table online seamlessly.<br/> <br/> Following the launch, Bistro Votra experienced a strong surge in table reservations and local inquiries. The new digital presence successfully established their market footprint from opening day, streamlined the reservation process, and drove high guest engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a new dining concept for immediate success.",
+      "gallery": [
+        { "src": "/images/works/acme/img-1.png" },
+        { "src": "/images/works/acme/img-2.png" },
+        { "src": "/images/works/acme/img-3.png" },
+        { "src": "/images/works/acme/img-4.png" },
+        { "src": "/images/works/acme/img-5.png" }
+      ],
+      "services": "Branding, Website Design & Development"
+    },
+    {
       "id": 5,
-       "title": "CILLI´S RESTAURANT",
-       "slug": "cillis",
-       "intro": "Full rebranding for a tech startup aiming to disrupt.",
-       "client": "CILLI´S RESTAURANT",
-       "year": 2023,
-       "cover": "/images/works/acme/cover.png",
-       "headline1": "Innovative",
-       "headline2": "Design",
-       "text1": "For Cilli’s Restaurant, we set out to capture the rich heritage and cozy warmth of traditional Viennese dining, crafting an identity that feels like a classic fixture of Vienna from day one.",
-       "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Cilli’s Restaurant as a distinctive, welcoming haven for lovers of authentic Viennese cuisine right from day one. Working closely with the founders, we built a cohesive, timeless brand identity from scratch—featuring elegant visual aesthetics, a warm color palette, and clear messaging that reflects Cilli’s commitment to traditional hospitality and culinary quality.<br/> <br/> From logo design and brand guidelines to typography and menu layouts, every element was crafted to communicate authenticity, charm, and rich local tradition. The website was designed with an intuitive user interface, making it effortless for guests to explore the menu, learn about special offerings, and reserve a table online seamlessly.<br/> <br/> Following the launch, Cilli’s Restaurant experienced a strong surge in table reservations and local inquiries. The new digital presence successfully established their market footprint from opening day, streamlined the reservation process, and drove high guest engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a traditional restaurant concept for immediate success",
-       "gallery": [
-         { "src": "/images/works/acme/img-1.png" },
-         { "src": "/images/works/acme/img-2.png" },
-         { "src": "/images/works/acme/img-3.png" },
-         { "src": "/images/works/acme/img-4.png" },
-         { "src": "/images/works/acme/img-5.png" }
-       ],
-       "services": "Branding, Website Design & Development" 
-     },
-     {
+      "title": "CILLI´S RESTAURANT",
+      "slug": "cillis",
+      "intro": "Full rebranding for a tech startup aiming to disrupt.",
+      "client": "CILLI´S RESTAURANT",
+      "year": 2023,
+      "cover": "/images/works/acme/cover.png",
+      "headline1": "Innovative",
+      "headline2": "Design",
+      "text1": "For Cilli’s Restaurant, we set out to capture the rich heritage and cozy warmth of traditional Viennese dining, crafting an identity that feels like a classic fixture of Vienna from day one.",
+      "text2": "We began with an in-depth market analysis, identifying key differentiators to establish Cilli’s Restaurant as a distinctive, welcoming haven for lovers of authentic Viennese cuisine right from day one. Working closely with the founders, we built a cohesive, timeless brand identity from scratch—featuring elegant visual aesthetics, a warm color palette, and clear messaging that reflects Cilli’s commitment to traditional hospitality and culinary quality.<br/> <br/> From logo design and brand guidelines to typography and menu layouts, every element was crafted to communicate authenticity, charm, and rich local tradition. The website was designed with an intuitive user interface, making it effortless for guests to explore the menu, learn about special offerings, and reserve a table online seamlessly.<br/> <br/> Following the launch, Cilli’s Restaurant experienced a strong surge in table reservations and local inquiries. The new digital presence successfully established their market footprint from opening day, streamlined the reservation process, and drove high guest engagement. The project stands as a powerful example of how strategic brand creation and user-centered web design can launch a traditional restaurant concept for immediate success",
+      "gallery": [
+        { "src": "/images/works/acme/img-1.png" },
+        { "src": "/images/works/acme/img-2.png" },
+        { "src": "/images/works/acme/img-3.png" },
+        { "src": "/images/works/acme/img-4.png" },
+        { "src": "/images/works/acme/img-5.png" }
+      ],
+      "services": "Branding, Website Design & Development"
+    },
+    {
       "id": 6,
-       "title": "LITTLE ROOMS",
-       "slug": "littlerooms",
-       "intro": "Full rebranding for a tech startup aiming to disrupt.",
-       "client": "LITTLE ROOMS",
-       "year": 2025,
-       "cover": "/images/works/acme/cover.png",
-       "headline1": "Innovative",
-       "headline2": "Design",
-       "text1": "Little Rooms, an intimate and conversational podcast, we crafted a distinct visual and conceptual identity designed to stand out in a crowded audio landscape.",
-       "text2": "Working closely with the hosts, we developed a cozy yet modern brand identity centered around the concept of personal space, deep conversations, and human connection. We created a custom logo mark and cover art optimized for readability across all major podcast platforms—from Spotify to Apple Podcasts—ensuring high visual impact even at small display sizes.<br/> <br/> Beyond the primary cover art, we established a flexible brand design system featuring tailored typography, a warm color palette, and reusable social media templates. This empowered the creators to maintain a consistent, professional aesthetic across episode artwork, promotional clips, and audience touchpoints.<br/> <br/> Following the brand launch, Little Rooms established an immediate, recognizable presence across streaming platforms and social media. The memorable visual identity helped increase listener click-through rates, drive audience engagement, and give the show a polished, established presence right from its debut episode.",
-       "gallery": [
-         { "src": "/images/works/acme/img-1.png" },
-         { "src": "/images/works/acme/img-2.png" },
-         { "src": "/images/works/acme/img-3.png" },
-         { "src": "/images/works/acme/img-4.png" },
-         { "src": "/images/works/acme/img-5.png" }
-       ],
-       "services": "Branding, Website Design & Development" 
-     }
+      "title": "LITTLE ROOMS",
+      "slug": "littlerooms",
+      "intro": "Full rebranding for a tech startup aiming to disrupt.",
+      "client": "LITTLE ROOMS",
+      "year": 2025,
+      "cover": "/images/works/acme/cover.png",
+      "headline1": "Innovative",
+      "headline2": "Design",
+      "text1": "Little Rooms, an intimate and conversational podcast, we crafted a distinct visual and conceptual identity designed to stand out in a crowded audio landscape.",
+      "text2": "Working closely with the hosts, we developed a cozy yet modern brand identity centered around the concept of personal space, deep conversations, and human connection. We created a custom logo mark and cover art optimized for readability across all major podcast platforms—from Spotify to Apple Podcasts—ensuring high visual impact even at small display sizes.<br/> <br/> Beyond the primary cover art, we established a flexible brand design system featuring tailored typography, a warm color palette, and reusable social media templates. This empowered the creators to maintain a consistent, professional aesthetic across episode artwork, promotional clips, and audience touchpoints.<br/> <br/> Following the brand launch, Little Rooms established an immediate, recognizable presence across streaming platforms and social media. The memorable visual identity helped increase listener click-through rates, drive audience engagement, and give the show a polished, established presence right from its debut episode.",
+      "gallery": [
+        { "src": "/images/works/acme/img-1.png" },
+        { "src": "/images/works/acme/img-2.png" },
+        { "src": "/images/works/acme/img-3.png" },
+        { "src": "/images/works/acme/img-4.png" },
+        { "src": "/images/works/acme/img-5.png" }
+      ],
+      "services": "Branding"
+    },
+    {
+      "id": 7,
+      "title": "CROATIA ZMRZLINA",
+      "slug": "croatia",
+      "intro": "Full rebranding for a tech startup aiming to disrupt.",
+      "client": "CROATIA ZMRZLINA",
+      "year": 2025,
+      "cover": "/images/works/acme/cover.png",
+      "headline1": "Innovative",
+      "headline2": "Design",
+      "text1": "Croatia Zmrzlina, a vibrant artisanal ice cream shop, we developed a fresh visual identity and produced captivating videography designed to capture the joyful essence of summer and craftsmanship.",
+      "text2": "We began by establishing a playful yet refined brand identity built to stand out on sun-soaked streets and digital screens alike. From custom logo design and vibrant color palettes to packaging design for cups, cones, and storefront signage, every element was crafted to evoke nostalgic summer vibes, freshness, and high quality.<br/> <br/> To bring the brand to life, our team produced a suite of promotional social media videos and short-form video content. Capturing close-up shots of rich textures, fresh ingredients, and the artisanal ice cream-making process, the videography highlighted the passion behind every scoop and created an irresistible visual hook for local customers and tourists.<br/> <br/> Following the launch, Croatia Zmrzlina made an immediate splash both online and on the ground. The striking video content generated high social media engagement and viral local reach, driving foot traffic directly to the shop and establishing Croatia Zmrzlina as a go-to summer destination.",
+      "gallery": [
+        { "src": "/images/works/acme/img-1.png" },
+        { "src": "/images/works/acme/img-2.png" },
+        { "src": "/images/works/acme/img-3.png" },
+        { "src": "/images/works/acme/img-4.png" },
+        { "src": "/images/works/acme/img-5.png" }
+      ],
+      "services": "Branding, Videography"
+    },
+    {
+      "id": 8,
+      "title": "CHOCO CAFFEE",
+      "slug": "choco",
+      "intro": "Full rebranding for a tech startup aiming to disrupt.",
+      "client": "CHOCO CAFFEE",
+      "year": 2025,
+      "cover": "/images/works/acme/cover.png",
+      "headline1": "Innovative",
+      "headline2": "Design",
+      "text1": "Choco Caffee, a warm and indulgent café specializing in specialty coffee and handcrafted desserts, we created a rich visual identity and produced cinematic video content designed to elevate the brand and tempt taste buds.",
+      "text2": "We began by building a cohesive, inviting brand identity from the ground up. Combining warm, rich color tones with elegant typography and bespoke packaging details—from takeaway coffee cups to dessert boxes—every touchpoint was crafted to convey comfort, premium quality, and culinary passion.<br/> <br/> To complement the new look, our production team created a series of high-energy promotional videos and appetizing short-form video clips. By focusing on sensory details—slow-motion shots of rich espresso pours, molten chocolate textures, and delicate dessert assembly—the video campaign captured the cozy ambiance of the café and brought its signature menu items to life online.<br/> <br/> Following the brand and campaign release, Choco Caffee experienced high social media engagement and a significant increase in daily foot traffic. The video content drove strong online sharing across Instagram and TikTok, positioning Choco Caffee as a must-visit destination for coffee and dessert lovers alike.",
+      "gallery": [
+        { "src": "/images/works/acme/img-1.png" },
+        { "src": "/images/works/acme/img-2.png" },
+        { "src": "/images/works/acme/img-3.png" },
+        { "src": "/images/works/acme/img-4.png" },
+        { "src": "/images/works/acme/img-5.png" }
+      ],
+      "services": "Branding, Website Design & Development"
+    }
   ]
 }
