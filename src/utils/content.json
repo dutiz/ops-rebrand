@@ -88,10 +88,10 @@
     "subtitle": "Projects",
     "description": "Explore our recent projects showcasing creativity, innovation, and impactful design solutions.",
     "items": [
-      { "img": "project-1", "title": "Acme", "year": "2024" },
-      { "img": "project-1", "title": "Acme", "year": "2024" },
-      { "img": "project-1", "title": "Acme", "year": "2024" },
-      { "img": "project-1", "title": "Acme", "year": "2024" }
+      { "img": "project-1", "title": "GTZ", "year": "2024" },
+      { "img": "project-1", "title": "Cilli´s", "year": "2024" },
+      { "img": "project-1", "title": "Choco Caffee", "year": "2024" },
+      { "img": "project-1", "title": "Morinas GmbH", "year": "2024" }
     ]
   },
   "serviceSection": {
