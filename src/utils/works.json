@@ -2,16 +2,16 @@
   "works": [
     {
       "id": 1,
-      "title": "ACME",
-      "slug": "acme",
+      "title": "MPM",
+      "slug": "mpm",
       "intro": "Full rebranding for a tech startup aiming to disrupt.",
-      "client": "ACME",
-      "year": 2023,
+      "client": "MPM",
+      "year": 2019,
       "cover": "/images/works/acme/cover.png",
       "headline1": "Innovative",
       "headline2": "Design",
-      "text1": "The Acme project involved a full rebranding initiative for a tech startup aiming to disrupt the logistics industry. ",
-      "text2": "We began with an in-depth market analysis, identifying key differentiators and positioning Acme as an innovative leader in its space. Our team worked closely with the client to craft a unique brand identity that resonated with both investors and customers, focusing on a sleek, modern aesthetic paired with a dynamic color palette.<br/> <br/> From logo design to typography and messaging, every element was designed to reflect Acme’s cutting-edge technology and commitment to efficiency. The website was designed with an intuitive user interface, ensuring easy navigation for both B2B and B2C users. This allowed potential partners to quickly understand Acme’s value proposition and services.<br/> <br/> Post-launch, Acme experienced a significant increase in brand visibility and engagement. Our efforts helped drive traffic to their website and improve user retention rates. The rebranding also facilitated a successful round of funding, providing Acme with the momentum needed to continue its growth trajectory. The project stands as a testament to the power of strategic branding and user-centered design.",
+      "text1": "MPM project was a comprehensive rebranding and digital transformation for an established billboard company looking to stand out in a competitive advertising market.",
+      "text2": "We began with an in-depth industry analysis, identifying key differentiators to position MPM as a modern, high impact advertising partner. Working closely with their leadership team, we crafted a strong brand identity designed to command attention focusing on bold, memorable visual elements, a high contrast color palette, and clear messaging that reflects MPM’s scale and reach.<br/> <br/> From logo design and brand guidelines to typography and marketing collateral, every element was built to communicate trust, visibility, and modern media strategy. The new website was engineered with an intuitive user interface, making it effortless for media buyers, local businesses, and corporate clients to explore inventory, view location maps, and request quotes instantly.<br/> <br/> Following the Launch, MPM experienced a significant boost in brand visibility and client inquiries. The updated digital presence streamlined the sales process, reduced response times for quote requests, and drove higher user engagement. The project stands as a powerful example of how strategic branding and user-centered web design can elevate a physical advertising business in a digital-first world.",
       "gallery": [
         { "src": "/images/works/acme/img-1.png" },
         { "src": "/images/works/acme/img-2.png" },
@@ -19,20 +19,20 @@
         { "src": "/images/works/acme/img-4.png" },
         { "src": "/images/works/acme/img-5.png" }
       ],
-      "services": "Branding, Website"
+      "services": "Branding, Website Design & Development"
     },
     {
      "id": 2,
-      "title": "ACME",
-      "slug": "acme",
+      "title": "GTZ",
+      "slug": "gtz",
       "intro": "Full rebranding for a tech startup aiming to disrupt.",
-      "client": "ACME",
-      "year": 2023,
+      "client": "GTZ",
+      "year": 2021,
       "cover": "/images/works/acme/cover.png",
       "headline1": "Innovative",
       "headline2": "Design",
-      "text1": "The Acme project involved a full rebranding initiative for a tech startup aiming to disrupt the logistics industry. ",
-      "text2": "We began with an in-depth market analysis, identifying key differentiators and positioning Acme as an innovative leader in its space. Our team worked closely with the client to craft a unique brand identity that resonated with both investors and customers, focusing on a sleek, modern aesthetic paired with a dynamic color palette.<br/> <br/> From logo design to typography and messaging, every element was designed to reflect Acme’s cutting-edge technology and commitment to efficiency. The website was designed with an intuitive user interface, ensuring easy navigation for both B2B and B2C users. This allowed potential partners to quickly understand Acme’s value proposition and services.<br/> <br/> Post-launch, Acme experienced a significant increase in brand visibility and engagement. Our efforts helped drive traffic to their website and improve user retention rates. The rebranding also facilitated a successful round of funding, providing Acme with the momentum needed to continue its growth trajectory. The project stands as a testament to the power of strategic branding and user-centered design.",
+      "text1": "GTZ project was a comprehensive rebranding and digital transformation for an established BuildDesign company looking to elevate its presence in a competitive market.",
+      "text2": "We began with an in-depth industry analysis, identifying key differentiators to position GTZ as a premier, innovative leader in modern architectural design and construction. Working closely with their leadership team, we crafted a sleek, sophisticated brand identity designed to convey trust and structural excellence—focusing on refined typography, a modern color palette, and clear messaging that reflects GTZ’s commitment to precision and craft.<br/> <br/>From brand guidelines and visual assets to marketing collateral, every element was built to communicate expertise, quality, and architectural vision. The new website was engineered with an intuitive user interface, making it effortless for prospective clients, property developers, and commercial partners to explore featured project portfolios, learn about GTZ’s integrated build-design methodology, and request consultations.<br/> <br/> Upon Deployment, GTZ experienced a significant boost in brand recognition and high-value project inquiries. The upgraded digital presence streamlined client onboarding, elevated portfolio showcases, and increased user engagement. The project stands as a powerful example of how strategic branding and user-centered web design can transform a physical build-design firm into a market-leading digital brand.",
       "gallery": [
         { "src": "/images/works/acme/img-1.png" },
         { "src": "/images/works/acme/img-2.png" },
@@ -40,6 +40,7 @@
         { "src": "/images/works/acme/img-4.png" },
         { "src": "/images/works/acme/img-5.png" }
       ],
-      "services": "Branding, Website" }
+      "services": "Branding, Website Design & Development" 
+    }
   ]
 }
