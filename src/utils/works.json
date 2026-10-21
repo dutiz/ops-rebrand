@@ -61,7 +61,7 @@
         { "src": "/images/works/acme/img-4.png" },
         { "src": "/images/works/acme/img-5.png" }
       ],
-      "services": "Branding, Website Design & Development"
+      "services": "Website Design & Development"
     },
     {
       "id": 4,
@@ -209,6 +209,48 @@
         { "src": "/images/works/acme/img-5.png" }
       ],
       "services": "Branding, Website Design & Development"
+    },
+    {
+      "id": 11,
+      "title": "ALBANIAN SEO COMMUNITY",
+      "slug": "albanianseo",
+      "intro": "Full rebranding for a tech startup aiming to disrupt.",
+      "client": "ALBANIAN SEO COMMUNITY",
+      "year": 2025,
+      "cover": "/images/works/acme/cover.png",
+      "headline1": "Innovative",
+      "headline2": "Design",
+      "text1": "Albanian SEO Community, a fast-growing network of digital marketers, SEO specialists, and tech professionals, we developed a modern brand identity designed to unite, empower, and professionalize the region's digital ecosystem",
+      "text2": "We began by establishing a strategic brand direction that reflects data-driven precision, connectivity, and collective growth. Combining sharp, modern typography with a clean, tech-forward color palette, we created a distinctive logo and visual system that symbolizes optimization, search algorithms, and community collaboration.<br/> <br/> To support the community's expansion across digital channels, we delivered comprehensive brand guidelines along with versatile visual assets for social media, event banners, presentation templates, and digital badges. This cohesive identity provided the group with a professional framework to host events, share industry insights, and foster partnerships across the Balkans and beyond.<br/> <br/> Following the brand launch, the Albanian SEO Community established a strong, credible presence that immediately resonated with regional talent and industry leaders. The unified aesthetic boosted community engagement, elevated event participation, and positioned the group as the premier hub for search engine marketing expertise in Albania and the surrounding region.",
+      "gallery": [
+        { "src": "/images/works/acme/img-1.png" },
+        { "src": "/images/works/acme/img-2.png" },
+        { "src": "/images/works/acme/img-3.png" },
+        { "src": "/images/works/acme/img-4.png" },
+        { "src": "/images/works/acme/img-5.png" }
+      ],
+      "services": "Branding"
+    },
+    {
+      "id": 12,
+      "title": "MORINAS GMBH",
+      "slug": "morinas",
+      "intro": "Full rebranding for a tech startup aiming to disrupt.",
+      "client": "MORINAS GMBH",
+      "year": 2024,
+      "cover": "/images/works/acme/cover.png",
+      "headline1": "Innovative",
+      "headline2": "Design",
+      "text1": "Morinas GmbH, a premier construction firm in Vienna, Austria, we developed a commanding brand identity and custom website engineered to reflect structural reliability, precision, and modern engineering excellence.",
+      "text2": "We began by crafting a robust visual brand built to instill trust among residential clients, commercial developers, and public contractors across Vienna. Combining clean, structured typography with a modern color palette, the identity balances raw architectural strength with corporate professionalism—extending seamlessly from digital assets to site signage and vehicle fleet graphics.<br/> <br/> To showcase their extensive capabilities, we designed a high-performance website with an intuitive user interface. The platform allows prospective clients and project partners to easily explore completed builds, review core construction services, and submit project inquiries. Built with responsive performance and local SEO in mind, the site delivers a smooth, professional experience across all devices.<br/> <br/> Following the launch, Morinas GmbH established a powerful digital and physical presence in the Austrian market. The unified branding and modern web portal streamlined prospective client inquiries, elevated their portfolio presentation, and positioned the company as a premier, trusted construction partner in Vienna.",
+      "gallery": [
+        { "src": "/images/works/acme/img-1.png" },
+        { "src": "/images/works/acme/img-2.png" },
+        { "src": "/images/works/acme/img-3.png" },
+        { "src": "/images/works/acme/img-4.png" },
+        { "src": "/images/works/acme/img-5.png" }
+      ],
+      "services": "Website Design & Development"
     }
   ]
 }
