@@ -43,6 +43,7 @@
         { "name": "Work Single", "href": "/" }
       ]
     },
+
     "utilityPages": {
       "meta": "(Utility Pages)",
       "items": [
@@ -50,6 +51,7 @@
         { "name": "Licensing", "href": "/licensing" }
       ]
     },
+
     "socials": {
       "meta": "(Social Media)",
       "items": [
@@ -57,7 +59,7 @@
           "name": "Instagram",
           "href": "https://www.instagram.com/onepercenstudio/"
         },
-        { "name": "Twitter/X", "href": "https://x.com/" }
+        { "name": "X", "href": "https://x.com/" }
       ]
     },
     "copyright": "Meroe Studio , All Rights Reservered"
@@ -196,12 +198,8 @@
             "description": "Our custom website design service focuses on crafting unique, visually appealing websites tailored to your brand identity. We prioritize user experience, ensuring intuitive navigation and seamless functionality. Each design reflects your business goals and resonates with your target audience, driving engagement and conversions effectively."
           },
           {
-            "title": "Framer Development",
-            "description": "Framer development combines design and code to create interactive and dynamic web experiences. Utilizing Framer's powerful tools, we build responsive layouts that enhance user engagement and storytelling. Our approach ensures your website is not only visually stunning but also optimized for performance, providing a smooth experience across all devices."
-          },
-          {
-            "title": "Webflow Development",
-            "description": "Our Webflow development service empowers you to manage your website effortlessly. We create custom, responsive sites using Webflow’s intuitive platform, allowing for seamless content updates without technical expertise. With a focus on aesthetics and functionality, we deliver websites that captivate users and meet your business objectives."
+            "title": "Figma Development",
+            "description": "Our Figma development service bridges the gap between design vision and production-ready code. Utilizing Figma’s powerful tools and advanced design systems, we build responsive layouts that enhance user engagement and visual storytelling. Our approach ensures your website or digital product is not only visually stunning but also precisely engineered for performance, providing a seamless and interactive experience across all devices."
           },
           {
             "title": "Website Maintenance & Support",
